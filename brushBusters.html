@@ -39,10 +39,20 @@
             <h3 class="text-lg font-semibold">Fill out the form to see the herbicide and treatment recommendations.</h3>
         </div>
 
-        <img src="" alt="" class="w-full rounded-md shadow-md">
-
         <div id="form-container" class="flex justify-center gap-4">
+            <form action="">
+                <div>
+                    <label for="plant-name"></label>
+                    <select name="plant-name" id="plant-name"></select>
+                </div>
 
+                <div>
+                    <label for="application-type"></label>
+                    <select name="application-type" id="application-type"></select>
+                </div>
+
+                <button type="submit"></button>
+            </form>
         </div>
 
 	</main>
@@ -67,6 +77,6 @@
 	</footer>
 
     <script src="js/ui.js"></script>
-    <script src="js/main.js" defer></script>
+    <script src="js/brushBusters.js" defer></script>
 </body>
 </html>
