@@ -613,6 +613,10 @@ video {
   max-width: 48rem;
 }
 
+.max-w-4xl {
+  max-width: 56rem;
+}
+
 .list-none {
   list-style-type: none;
 }
