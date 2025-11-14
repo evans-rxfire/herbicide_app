@@ -1,5 +1,5 @@
 const brushBustersReccomends = {
-    "Mesquite": {
+    "mesquite": {
         "Leaf": {
 
         },
@@ -7,7 +7,7 @@ const brushBustersReccomends = {
 
         }
     },
-    "Huisache": {
+    "huisache": {
         "Leaf": {
 
         },
@@ -15,12 +15,12 @@ const brushBustersReccomends = {
 
         }
     },
-    "Prickly Pear": {
-        "Pad and Stem": {
+    "prickly-pear": {
+        "Pad": {
 
         }
     },
-    "Ashe Juniper": {
+    "ashe-juniper": {
         "Leaf": {
 
         },
@@ -28,7 +28,7 @@ const brushBustersReccomends = {
 
         }
     },
-    "Blueberry Juniper": {
+    "blueberry-Juniper": {
         "Leaf": {
 
         },
@@ -36,7 +36,7 @@ const brushBustersReccomends = {
 
         }
     },
-    "Chinese Tallow": {
+    "chinese-tallow": {
         "Leaf": {
 
         },
@@ -44,12 +44,12 @@ const brushBustersReccomends = {
 
         }
     },
-    "Greenbriar": {
+    "greenbriar": {
         "Stem": {
 
         }
     },
-    "Texas Persimmon": {
+    "texas-persimmon": {
         "Leaf": {
 
         },
@@ -57,54 +57,103 @@ const brushBustersReccomends = {
 
         }
     },
-    "Agarita": {
+    "agarita": {
         "Leaf": {
 
         }
     },
-    "Bumelia": {
-        "leaf": {
-
-        }
-    },
-    "Catclaw Acacia": {
+    "bumelia": {
         "Leaf": {
 
         }
     },
-    "Catclaw Mimosa": {
+    "catclaw-acacia": {
+        "Leaf": {
+
+        }
+    },
+    "catclaw-mimosa": {
         "Leaf": {
             
         }
     },
-    "Coyotillo": {
+    "coyotillo": {
         "Leaf": {
 
         }
     },
-    "Flameleaf Sumac": {
+    "flameleaf-sumac": {
         "Leaf": {
 
         }
     },
-    "Lotebush": {
+    "lotebush": {
         "Leaf": {
 
         }
     },
-    "Tasajillo": {
+    "tasajillo": {
         "Leaf": {
 
         }
     },
-    "Texas Mountain Laurel": {
+    "texas-mountain-laurel": {
         "Leaf": {
 
         }
     },
-    "Whitebrush": {
+    "whitebrush": {
         "Leaf": {
 
         }
     }
 };
+
+const plantSelect = document.getElementById("plant-name");
+const applicationType = document.getElementById("application-type");
+const getRecommendationBtn = document.getElementById("get-recommendation-button");
+
+const optionGroups = {
+    groupA: ["Leaf", "Stem"],
+    groupB: ["Leaf", "Spot"],
+    groupC: ["Leaf"],
+    groupD: ["Stem"],
+    groupE: ["Pad"]
+};
+
+const groupMap = {
+    "mesquite": "groupA",
+    "huisache": "groupA",
+    "prickly-pear": "groupE",
+    "ashe-juniper": "groupB",
+    "blueberry-juniper": "groupB",
+    "chinese-tallow": "groupA",
+    "greenbriar": "groupD",
+    "texas-persimmon": "groupA",
+    "agarita": "groupC",
+    "bumelia": "groupC",
+    "catclaw-acacia": "groupC",
+    "catclaw-mimosa": "groupC",
+    "coyotillo": "groupC",
+    "flameleaf-sumac": "groupC",
+    "lotebush": "groupC",
+    "tasajillo": "groupC",
+    "texas-mountain-laurel": "groupC",
+    "whitebrush": "groupC"
+};
+
+plantSelect.addEventListener("change", () => {
+    const selected = plantSelect.value;
+    const groupKey = groupMap[selected];
+    const options = optionGroups[groupKey] || [];
+
+    applicationType.innerHTML = "";
+
+    options.forEach(type => {
+        const opt = document.createElement("option");
+        opt.value = type;
+        opt.textContent = type;
+        applicationType.appendChild(opt);
+    });
+});
+
