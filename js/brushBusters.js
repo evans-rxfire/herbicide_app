@@ -1,4 +1,4 @@
-const brushBustersReccomendations = {
+const brushBustersRecomendations = {
     "mesquite": {
         "Leaf": {
             "Works well on": "Plants that have a good leaf canopy and are less than 6ft tall",
@@ -78,7 +78,64 @@ const brushBustersReccomendations = {
     },
     "huisache": {
         "Leaf": {
-
+            "Works well on": "Plants that have a good leaf canopy and are less than 6ft tall",
+            "When to apply": "Begin in September after late-Summer growth has stopped, continue until November or when soil temp drops below 75&degF @ 12 in deep",
+            "Ingredient": {
+                "Herbicide1": {
+                    "Name": ["Grazon P+D", "Gunslinger", "Picloram+D", "Sendero"],
+                    "Concentration": "1%",
+                    "Tank Size": {
+                        "1 gal": "1.28 oz",
+                        "3 gal": "4 oz",
+                        "14 gal": "18 oz",
+                        "25 gal": "32 oz"
+                    },
+                    "Surfactant": "Yes",
+                    "Dye": "Yes"
+                },
+                "Herbicide2": {
+                    "Name": "Invora",
+                    "Concentration": "1.5%",
+                    "Tank Size": {
+                        "1 gal": "1.92 oz",
+                        "3 gal": "5.76 oz",
+                        "14 gal": "27 oz",
+                        "25 gal": "48 oz"
+                    },
+                    "Surfactant": "Yes",
+                    "Dye": "Yes"
+                },
+                "Herbidice3": {
+                    "Name": "Graslan L",
+                    "Concentration": "0.63%",
+                    "Tank Size": {
+                        "1 gal": "0.8 oz",
+                        "3 gal": "2.4 oz",
+                        "14 gal": "11 oz",
+                        "25 gal": "20 oz"
+                    },
+                    "Surfactant": "Yes",
+                    "Dye": "Yes"
+                },
+                "Surfactant": {
+                "Concentration": "0.25%",
+                "Tank Size": {
+                    "1 gal": "0.32 oz",
+                    "3 gal": "1 oz",
+                    "14 gal": "4.5 oz",
+                    "25 gal": "8 oz"
+                    }
+                },
+                "Hi-Light &trade Blue Dye": {
+                    "Concetration": "0.25-0.5%",
+                    "Tank Size": {
+                        "1 gal": "0.32-0.64 oz",
+                        "3 gal": "1-2 oz",
+                        "14 gal": "4.5-9 oz",
+                        "25 gal": "8-16 oz"
+                    }
+                }
+            },
         },
         "Stem": {
 
@@ -91,18 +148,88 @@ const brushBustersReccomendations = {
     },
     "ashe-juniper": {
         "Leaf": {
-
+            "Works well on": "Plants that are less than 3ft tall",
+            "When to apply": "Spring through Summer when planst are actively growing",
+            "Ingredient": {
+                "Picloram": {
+                    "Name": ["Tordon 22K", "Triumph 22K", "Picloram 22K"],
+                    "Concentration": "1%",
+                    "Tank Size": {
+                        "1 gal": "1.28 oz",
+                        "3 gal": "4 oz",
+                        "14 gal": "18 oz",
+                        "25 gal": "32 oz"
+                    }
+                },
+                "Non-ionic Surfactant": {
+                    "Concentration": "0.25%",
+                    "Tank Size": {
+                        "1 gal": "0.32 oz",
+                        "3 gal": "1 oz",
+                        "14 gal": "4.5 oz",
+                        "25 gal": "8 oz"
+                    }
+                },
+                "Hi-Light &trade Blue Dye": {
+                    "Concentration": "0.25-0.5%",
+                    "Tank Size": {
+                        "1 gal": "0.32-0.64 oz",
+                        "3 gal": "1-2 oz",
+                        "14 gal": "4.5-9 oz",
+                        "25 gal": "8-16 oz"
+                    }
+                }
+            }
         },
         "Spot": {
-
+            "Works well on": "Plants that are less than 3ft tall",
+            "When to apply": "Late-Winter to mid-Spring (IDeally before expected rainfall)",
+            "Herbicide": ["Velpar L", "Pronone Power Pellet"],
+            "Amount per plan": "2ml undiluted Velpar L or one Pronone Power Pellet for every 3ft of plant height or every 3ft of canopy diameter (whichever is greater",
+            "How to apply": "Apply Velpar L or Pronone Power Pellet to soil midway between plant stem and canopy edge"
         }
     },
     "blueberry-Juniper": {
         "Leaf": {
-
+            "Works well on": "Plants that are less than 3ft tall",
+            "When to apply": "Spring through Summer when planst are actively growing",
+            "Ingredient": {
+                "Picloram": {
+                    "Name": ["Tordon 22K", "Triumph 22K", "Picloram 22K"],
+                    "Concentration": "1%",
+                    "Tank Size": {
+                        "1 gal": "1.28 oz",
+                        "3 gal": "4 oz",
+                        "14 gal": "18 oz",
+                        "25 gal": "32 oz"
+                    }
+                },
+                "Non-ionic Surfactant": {
+                    "Concentration": "0.25%",
+                    "Tank Size": {
+                        "1 gal": "0.32 oz",
+                        "3 gal": "1 oz",
+                        "14 gal": "4.5 oz",
+                        "25 gal": "8 oz"
+                    }
+                },
+                "Hi-Light &trade Blue Dye": {
+                    "Concentration": "0.25-0.5%",
+                    "Tank Size": {
+                        "1 gal": "0.32-0.64 oz",
+                        "3 gal": "1-2 oz",
+                        "14 gal": "4.5-9 oz",
+                        "25 gal": "8-16 oz"
+                    }
+                }
+            }
         },
         "Spot": {
-
+            "Works well on": "Plants that are less than 3ft tall",
+            "When to apply": "Late-Winter to mid-Spring (IDeally before expected rainfall)",
+            "Herbicide": ["Velpar L", "Pronone Power Pellet"],
+            "Amount per plan": "2ml undiluted Velpar L or one Pronone Power Pellet for every 3ft of plant height or every 3ft of canopy diameter (whichever is greater",
+            "How to apply": "Apply Velpar L or Pronone Power Pellet to soil midway between plant stem and canopy edge"
         }
     },
     "chinese-tallow": {
