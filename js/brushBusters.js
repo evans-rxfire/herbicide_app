@@ -73,7 +73,56 @@ const brushBustersRecomendations = {
             },
         },
         "Stem": {
-
+            "Works well on": "Young seedlings or older trees with 3 or fewer basal stems",
+            "When to apply": "Anytime during the year, best results occur during growing season. The Invora mixture is best applied late Spring through Summer",
+            "Ingredient": {
+                "Herbicide1": {
+                    "Name": ["Remedy Ultra", "Clear Pasture", "Triclopyr R&P", "Triclopyr 4EC"],
+                    "Mesquite Type and Stem Diamter": {
+                        "Smooth bark, 1.5 in or less": {
+                            "Concentration": "15%",
+                            "Herbicide/Gallon": "19 oz",
+                            "Herbicide Carrier/Gallon": "109 oz diesel",
+                            "Adjuvant": "No",
+                            "Dye": "Optional"
+                        },
+                        "Smooth bark, 1.5 - 4 in": {
+                            "Concentration": "25%",
+                            "Herbicide/Gallon": "32 oz",
+                            "Herbicide Carrier/Gallon": "96 oz diesel",
+                            "Adjuvant": "No",
+                            "Dye": "Optional"
+                        },
+                        "Rough bark": {
+                            "Concentration": "25%",
+                            "Herbicide/Gallon": "32 oz",
+                            "Herbicide Carrier/Gallon": "96 oz diesel",
+                            "Adjuvant": "No",
+                            "Dye": "Optional"
+                        }
+                    },
+                },
+                "Herbicide2": {
+                    "Name": "Invora",
+                    "Mesquite Type and Stem Diameter": {
+                        "Smooth bark, 4 in or less": {
+                            "Concentration": "15%",
+                            "Herbicide/Gallon": "19 oz",
+                            "Herbicide Carrier/Gallon": "109 oz water",
+                            "Adjuvant": "Yes",
+                            "Dye": "Yes"
+                        }
+                    }
+                },
+                "MSO-OS Adjuvant": {
+                    "Concentration": "1%",
+                    "Herbicide/Gallon": "1.28 oz"
+                },
+                "Hi-Light &trade Blue Dye": {
+                    "Concentration": "0.25-0.5%",
+                    "Herbicide/Gallon": "0.32-0.64 oz"
+                }
+            }
         }
     },
     "huisache": {
@@ -138,12 +187,63 @@ const brushBustersRecomendations = {
             },
         },
         "Stem": {
-
+            "Works well on": "Young seedlings or older trees with 3 or fewer basal stems",
+            "When to apply": "Anytime during the year, best results occur during the growing season",
+            "Ingredient": {
+                "Triclopyr ester": {
+                    "Name": ["Remedy Ultra", "Clear Pasture", "Triclopyr R&P", "Triclopyr 4EC"],
+                    "Huisache Type and Stem Diameter": {
+                        "Smooth bark, up to 4 in": {
+                            "Concentration": "25%",
+                            "Herbicide/Gallon": "32 oz",
+                            "Herbicide Carrier/Gallon": "96 oz diesel",
+                            "Dye": "Optional"
+                        }
+                    }
+                },
+                "Hi-Light &trade Blue Dye": {
+                    "Concentration": "0.25-0.5%",
+                    "Herbicide/Gallon": "0.32-0.64 oz"
+                }
+            }
         }
     },
     "prickly-pear": {
         "Pad": {
-
+            "Works well on": "Relatively thin stands of prickly pear",
+            "When to apply": "Mnytime of year when there is adequate soil moisture, except during extremely cold weather",
+            "Ingredient": {
+                "Herbidice1": {
+                    "Name": ["MezaVue", "PastureGard HL", "Surmount/Trooper Pro", "Tordon 22K/Triumph 22K/Picloram 22K"],
+                    "Concentration": "1%",
+                    "Tank Size": {
+                        "1 gal": "1.28 oz",
+                        "3 gal": "3.84 oz",
+                        "14 gal": "18 oz",
+                        "25 gal": "32 oz"
+                    },
+                    "Surfactant": "Yes",
+                    "Dye": "Yes"
+                },
+                "Non-ionic Surfactant": {
+                "Concentration": "0.25%",
+                "Tank Size": {
+                    "1 gal": "0.32 oz",
+                    "3 gal": "1 oz",
+                    "14 gal": "4.5 oz",
+                    "25 gal": "8 oz"
+                    }
+                },
+                "Hi-Light &trade Blue Dye": {
+                    "Concetration": "0.25-0.5%",
+                    "Tank Size": {
+                        "1 gal": "0.32-0.64 oz",
+                        "3 gal": "1-2 oz",
+                        "14 gal": "4.5-9 oz",
+                        "25 gal": "8-16 oz"
+                    }
+                }
+            }
         }
     },
     "ashe-juniper": {
@@ -234,23 +334,28 @@ const brushBustersRecomendations = {
     },
     "chinese-tallow": {
         "Leaf": {
-
+            "Works well on": "",
+            "When to apply": "",
         },
         "Stem": {
-
+            "Works well on": "",
+            "When to apply": "",
         }
     },
     "greenbriar": {
         "Stem": {
-
+            "Works well on": "",
+            "When to apply": "",
         }
     },
     "texas-persimmon": {
         "Leaf": {
-
+            "Works well on": "",
+            "When to apply": "",    
         },
         "Stem": {
-
+            "Works well on": "",
+            "When to apply": "",
         }
     },
     "agarita": {
