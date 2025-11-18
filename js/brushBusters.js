@@ -81,22 +81,22 @@ const brushBustersRecomendations = {
                     "Mesquite Type and Stem Diamter": {
                         "Smooth bark, 1.5 in or less": {
                             "Concentration": "15%",
-                            "Herbicide/Gallon": "19 oz",
-                            "Herbicide Carrier/Gallon": "109 oz diesel",
+                            "Amount/Gallon Mixed": "19 oz",
+                            "Herbicide Carrier/Gallon": "109 oz Diesel or Basal oil",
                             "Adjuvant": "No",
                             "Dye": "Optional"
                         },
                         "Smooth bark, 1.5 - 4 in": {
                             "Concentration": "25%",
-                            "Herbicide/Gallon": "32 oz",
-                            "Herbicide Carrier/Gallon": "96 oz diesel",
+                            "Amount/Gallon Mixed": "32 oz",
+                            "Herbicide Carrier/Gallon": "96 oz Diesel or Basal oil",
                             "Adjuvant": "No",
                             "Dye": "Optional"
                         },
                         "Rough bark": {
                             "Concentration": "25%",
-                            "Herbicide/Gallon": "32 oz",
-                            "Herbicide Carrier/Gallon": "96 oz diesel",
+                            "Amount/Gallon Mixed": "32 oz",
+                            "Herbicide Carrier/Gallon": "96 oz Diesel or Basal oil",
                             "Adjuvant": "No",
                             "Dye": "Optional"
                         }
@@ -107,7 +107,7 @@ const brushBustersRecomendations = {
                     "Mesquite Type and Stem Diameter": {
                         "Smooth bark, 4 in or less": {
                             "Concentration": "15%",
-                            "Herbicide/Gallon": "19 oz",
+                            "Amount/Gallon Mixed": "19 oz",
                             "Herbicide Carrier/Gallon": "109 oz water",
                             "Adjuvant": "Yes",
                             "Dye": "Yes"
@@ -116,11 +116,11 @@ const brushBustersRecomendations = {
                 },
                 "MSO-OS Adjuvant": {
                     "Concentration": "1%",
-                    "Herbicide/Gallon": "1.28 oz"
+                    "Amount/Gallon Mixed": "1.28 oz"
                 },
                 "Hi-Light &trade Blue Dye": {
                     "Concentration": "0.25-0.5%",
-                    "Herbicide/Gallon": "0.32-0.64 oz"
+                    "Amount/Gallon Mixed": "0.32-0.64 oz"
                 }
             }
         }
@@ -195,15 +195,15 @@ const brushBustersRecomendations = {
                     "Huisache Type and Stem Diameter": {
                         "Smooth bark, up to 4 in": {
                             "Concentration": "25%",
-                            "Herbicide/Gallon": "32 oz",
-                            "Herbicide Carrier/Gallon": "96 oz diesel",
+                            "Amount/Gallon Mixed": "32 oz",
+                            "Herbicide Carrier/Gallon": "96 oz Diesel or Basal oil",
                             "Dye": "Optional"
                         }
                     }
                 },
                 "Hi-Light &trade Blue Dye": {
                     "Concentration": "0.25-0.5%",
-                    "Herbicide/Gallon": "0.32-0.64 oz"
+                    "Amount/Gallon Mixed": "0.32-0.64 oz"
                 }
             }
         }
@@ -334,28 +334,143 @@ const brushBustersRecomendations = {
     },
     "chinese-tallow": {
         "Leaf": {
-            "Works well on": "",
-            "When to apply": "",
+            "Works well on": "Trees that have good leaf canopy and are less than 6ft tall",
+            "When to apply": "Begin in April or May after leaves mature, continue through September or until leaves begin to turn yellow to red",
+            "Ingredient": {
+                "Herbicide": {
+                    "Name": ["Grazon P+D", "Gunslinger", "Picloram+D"],
+                    "Concentration": "1%",
+                    "Tank Size": {
+                        "1 gal": "1.28 oz",
+                        "3 gal": "3.84 oz",
+                        "14 gal": "18 oz",
+                        "25 gal": "32 oz"
+                    }
+                },
+                "Non-ionic Surfactant": {
+                    "Concentration": "0.25%",
+                    "Tank Size": {
+                        "1 gal": "0.32 oz",
+                        "3 gal": "1 oz",
+                        "14 gal": "5 oz",
+                        "25 gal": "8 oz"
+                    }
+                },
+                "Hi-Light &trade Blue Dye": {
+                    "Concentration": "0.25-0.5%",
+                    "Tank Size": {
+                        "1 gal": "0.32-0.64 oz",
+                        "3 gal": "1-2 oz",
+                        "14 gal": "5-9 oz",
+                        "25 gal": "8-16 oz"
+                    }
+                }
+            }
         },
         "Stem": {
-            "Works well on": "",
-            "When to apply": "",
+            "Works well on": "Young seedlings or older trees with 3 or fewer basal stems",
+            "When to apply": "Anytime of the year, best reuslts occur during the growing season",
+            "Ingredient": {
+                "Herbicide": {
+                    "Name": ["Remedy Ultra", "Triclopyr R&P", "Triclopyr 4EC"],
+                    "Tallow Tree Stem": {
+                        "Smooth bark": {
+                            "Concentration": "15%",
+                            "Amount/Gallon Mixed": "19 oz",
+                            "Herbicide Carrier/Gallon": "109 oz Diesel or Basal oil",
+                            "Dye": "optional"
+                        },
+                        "Rough bark": {
+                            "Concentration": "25%",
+                            "Amount/Gallon Mixed": "32 oz",
+                            "Herbicide Carrier/Gallon": "96 oz Diesel or Basal oil",
+                            "Dye": "optional"
+                        }
+                    }
+                },
+                "Hi-Light &trade Blue Dye": {
+                    "Concentration": "0.25-0.5%",
+                    "Amount/Gallon Mixed": "0.32-0.64 oz"
+                } 
+            }
         }
     },
     "greenbriar": {
         "Stem": {
-            "Works well on": "",
-            "When to apply": "",
+            "Works well on": "Greenbriar growing on fence lines or where basal stems are easy to access for spraying",
+            "When to apply": "During winter, when most of leaves are gone and basal stems can be easily covered with spray mix",
+            "Ingredient": {
+                "Herbicide": {
+                    "Name": ["Remedy Ultra", "Triclopyr R&P", "Triclopyr 4EC"],
+                    "Concentration": "25%",
+                    "Amount/Gallon Mixed": "32 oz",
+                    "Dye": "optional"
+                },
+                "Diesel or Basal oil": {
+                    "Concentration": "75%",
+                    "Amount/Gallon Mixed": "96 oz"
+                },
+                "Hi-Light &trade Blue Dye": {
+                    "Concentration": "0.25-0.5%",
+                    "Amount/Gallon Mixed": "0.32-0.64 oz"
+                }
+            }
         }
     },
     "texas-persimmon": {
         "Leaf": {
-            "Works well on": "",
-            "When to apply": "",    
+            "Works well on": "Plants that have a good leaf canopy and are less than 6ft tall",
+            "When to apply": "Begin in Spring when leaves are mature. Most consistent results obtained before July 1. Stop spraying if leaves fall of when limbs are shaken.",
+            "Ingredient": {
+                "Herbicide": {
+                    "Name": "Invora",
+                    "Concentration": "2%",
+                    "Tank Size": {
+                        "1 gal": "2.56 oz",
+                        "3 gal": "8 oz",
+                        "14 gal": "36 oz",
+                        "25 gal": "64 oz"
+                    }
+                },
+                "Non-ionic Surfactant": {
+                    "Concentration": "0.25%",
+                    "Tank Size": {
+                        "1 gal": "0.32 oz",
+                        "3 gal": "1 oz",
+                        "14 gal": "4.5 oz",
+                        "25 gal": "8 oz"
+                    }
+                },
+                "Hi-Light &trade Blue Dye": {
+                    "Concentration": "0.25-0.5%",
+                    "Tank Size": {
+                        "1 gal": "0.32-0.64 oz",
+                        "3 gal": "1-2 oz",
+                        "14 gal": "4.5-9 oz",
+                        "25 gal": "8-16 oz"
+                    }
+                }
+            }
         },
         "Stem": {
-            "Works well on": "",
-            "When to apply": "",
+            "Works well on": "Young seedlings or older trees with less 3 or fewer basal stems. Stems should be less than 4 inches in diameter",
+            "When to apply": "After leaves are mature and before June 15",
+            "Ingredient": {
+                "Herbicide": {
+                    "Name": ["Remedy Ultra", "Triclopyr R&P", "Triclopyr 4EC"],
+                    "Concentration": "25%",
+                    "Amount/Gallon Mixed": "32 oz",
+                    "Dye": "optional"
+                },
+                "Diesel or Basal oil": {
+                    "Concentration": "75%",
+                    "Amount/Gallon Mixed": "96 oz"
+                },
+                "Hi-Light &trade Blue Dye": {
+                    "Concentration": "0.25-0.5%",
+                    "Amount/Gallon Mixed": "0.32-0.64 oz"
+                }
+            }
         }
     },
     "agarita": {
@@ -709,6 +824,7 @@ const brushBustersRecomendations = {
         }
     }
 };
+
 
 const plantSelect = document.getElementById("plant-name");
 const applicationType = document.getElementById("application-type");
