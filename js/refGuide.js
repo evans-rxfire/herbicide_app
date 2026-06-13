@@ -486,7 +486,7 @@ const weedControl = [
     }, 
 
     {
-        plantName: ["Broomweed (annual or common)", "plantain (tallowweed)", "wild carrot"],
+        plantName: ["broomweed (annual or common)", "plantain (tallowweed)", "wild carrot"],
         herbicides: [
             {
                 herbicideName: "2,4-D amine or low volatile ester",
@@ -746,7 +746,7 @@ const weedControl = [
     }, 
 
     {
-        plantName: ["Broom snakeweed (perennial broomweed)"],
+        plantName: ["broom snakeweed (perennial broomweed)"],
         herbicides: [
             {
                 herbicideName: "picloram",
@@ -972,7 +972,7 @@ const weedControl = [
     }, 
 
     {
-        plantName: ["Bullnettle", "Carolina horsenettle", "dogfennel", "silverleaf nightshade", "upright prairie-coneflower", "western horsenettle (treadslave)", "yankeeweed (rosin weed)"],
+        plantName: ["bullnettle", "Carolina horsenettle", "dogfennel", "silverleaf nightshade", "upright prairie-coneflower", "western horsenettle (treadslave)", "yankeeweed (rosin weed)"],
         herbicides: [
             {
                 herbicideName: "picloram:2,4-D (1:4), (3.8lb/gal product)",
@@ -1147,7 +1147,396 @@ const weedControl = [
     }, 
 
     {
-        plantName: ["Common goldenweed", "Drummond's goldenweed"],
+        plantName: ["common goldenweed", "Drummond's goldenweed"],
+        herbicides: [
+            {
+                herbicideName: "2,4-D low volatile ester",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "64oz (2lb) 4lb/gal product"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "2% (4lb/gal product)"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, when growth conditions are good.",
+                remarks: "Picloram:2,4-D (1:4), dicamba:2,4-D (1:3), and mixtures of dicamba:2,4-D and picloram:2,4-D are more effective than 2,4-D alone when growth conditions are less than optimal. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "dicamba:2,4-D (1:3)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "48oz (1.5lb)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "2%"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, when growth conditions are good.",
+                remarks: "Picloram:2,4-D (1:4), dicamba:2,4-D (1:3), and mixtures of dicamba:2,4-D and picloram:2,4-D are more effective than 2,4-D alone when growth conditions are less than optimal. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "dicamba:2,4-D (1:1.3) + 2,4-D amine or low volatile ester",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "9-22oz (0.28-0.69lb) dicamba:2,4-D (1:1.3) + 14-32oz (0.44-1.0lb) 2,4-D (4lb/gal product)"
+                    }, 
+                    IPT: {
+                        contolRating: null,
+                        rate: null
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, when growth conditions are good.",
+                remarks: "Picloram:2,4-D (1:4), dicamba:2,4-D (1:3), and mixtures of dicamba:2,4-D and picloram:2,4-D are more effective than 2,4-D alone when growth conditions are less than optimal. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "picloram:fluroxypyr (1:1)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "32oz (0.33lb)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "1%"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, when growth conditions are good.",
+                remarks: "Picloram:2,4-D (1:4), dicamba:2,4-D (1:3), and mixtures of dicamba:2,4-D and picloram:2,4-D are more effective than 2,4-D alone when growth conditions are less than optimal. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "triclopyr:fluroxypyr (3:1)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "H",
+                        rate: "32-48oz (0.5-0.75lb)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "1%"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, when growth conditions are good.",
+                remarks: "Picloram:2,4-D (1:4), dicamba:2,4-D (1:3), and mixtures of dicamba:2,4-D and picloram:2,4-D are more effective than 2,4-D alone when growth conditions are less than optimal. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "metsulfuron methyl dicamba:2,4-D (1:3)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "Rate 3"
+                    }, 
+                    IPT: {
+                        contolRating: null,
+                        rate: null
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, when growth conditions are good.",
+                remarks: "Picloram:2,4-D (1:4), dicamba:2,4-D (1:3), and mixtures of dicamba:2,4-D and picloram:2,4-D are more effective than 2,4-D alone when growth conditions are less than optimal. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "dicamba + 2,4-D amine or low volatile ester",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "12oz (0.375lb) dicamba + 36oz (1.125lb) 2,4-D (4lb/gal product)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "0.5% dicamba + 1.5% 2,4-D (4lb/gal product)"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, when growth conditions are good.",
+                remarks: "Picloram:2,4-D (1:4), dicamba:2,4-D (1:3), and mixtures of dicamba:2,4-D and picloram:2,4-D are more effective than 2,4-D alone when growth conditions are less than optimal. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "picloram:2,4-D (1:4), (3.8lb/gal product)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "32oz (0.95lb)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "1.3%"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, when growth conditions are good.",
+                remarks: "Picloram:2,4-D (1:4), dicamba:2,4-D (1:3), and mixtures of dicamba:2,4-D and picloram:2,4-D are more effective than 2,4-D alone when growth conditions are less than optimal. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            }, 
+
+            {
+                herbicideName: "picloram:2,4-D (1:4), (2.5lb/gal product)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "48oz (0.64lb)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "2%"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, when growth conditions are good.",
+                remarks: "Picloram:2,4-D (1:4), dicamba:2,4-D (1:3), and mixtures of dicamba:2,4-D and picloram:2,4-D are more effective than 2,4-D alone when growth conditions are less than optimal. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "picloram + 2,4-D amine or low volatile ester",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "12oz (0.19lb) picloram + 24oz (0.75lb) 2,4-D (4lb/gal product)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "0.50% picloram + 2,4-D (4lb/gal product)"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, when growth conditions are good.",
+                remarks: "Picloram:2,4-D (1:4), dicamba:2,4-D (1:3), and mixtures of dicamba:2,4-D and picloram:2,4-D are more effective than 2,4-D alone when growth conditions are less than optimal. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            }
+        ]
+    }, 
+
+    {
+        plantName: ["flat sedge"],
+        herbicides: [
+            {
+                herbicideName: "dicamba:2,4-D (1:3)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "64oz (2lb)"
+                    }, 
+                    IPT: {
+                        contolRating: null,
+                        rate: null
+                    }
+                },
+                sprayVolume: "Ground broadcast 20-30gal per acre. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring or Fall",
+                remarks: "Control may be enhanced if the stand is burned and/or shredded and allowed to regrow to a height of 12-15in. before spraying. Becasue of of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "dicamba:2,4-D (1:1.3) + 2,4-D amine or low volatile ester",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "9-22oz (0.28-0.69lb) dicamba:2,4-D (1:1.3) + 14-32oz (0.44-1.0lb) 2,4-D (4lb/gal product)"
+                    }, 
+                    IPT: {
+                        contolRating: null,
+                        rate: null
+                    }
+                },
+                sprayVolume: "Ground broadcast 20-30gal per acre. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring or Fall",
+                remarks: "Control may be enhanced if the stand is burned and/or shredded and allowed to regrow to a height of 12-15in. before spraying. Becasue of of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "metsulfuron methyl dicamba:2,4-D (1-3)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "Rate 2"
+                    }, 
+                    IPT: {
+                        contolRating: null,
+                        rate: null
+                    }
+                },
+                sprayVolume: "Ground broadcast 20-30gal per acre. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring or Fall",
+                remarks: "Control may be enhanced if the stand is burned and/or shredded and allowed to regrow to a height of 12-15in. before spraying. Becasue of of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            } 
+        ]
+    }, 
+
+    {
+        plantName: ["garboncillo", "threadleaf groundsel", "wooly locoweed"],
+        herbicides: [
+            {
+                herbicideName: "picloram:2,4-D (1:4), (3.8lb/gal product)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "32oz (0.95lb)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "1.3%"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Fall, when growing conditions are good.",
+                remarks: "Herbicide application may increase palatability of these poisonous plants. Therefore, do not graze treated areas until the toxic plants dry up and lose their palatability. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "picloram:2,4-D (1:4), (2.5lb/gal product)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "48oz (0.94lb)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "2%"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Fall, when growing conditions are good.",
+                remarks: "Herbicide application may increase palatability of these poisonous plants. Therefore, do not graze treated areas until the toxic plants dry up and lose their palatability. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "picloram + 2,4-D amine or low volatile ester",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "12oz (0.19lb) picloram + 24oz (0.75lb) 2,4-D (4lb/gal product)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "0.5% picloram + 1% 2,4-D (4lb/gal product"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Fall, when growing conditions are good.",
+                remarks: "Herbicide application may increase palatability of these poisonous plants. Therefore, do not graze treated areas until the toxic plants dry up and lose their palatability. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "picloram:fluroxypyr (1:1)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "32oz (0.33lb)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "1%"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Fall, when growing conditions are good.",
+                remarks: "Herbicide application may increase palatability of these poisonous plants. Therefore, do not graze treated areas until the toxic plants dry up and lose their palatability. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "triclopyr:fluroxypyr (3:1)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "H",
+                        rate: "32-48oz (0.5-0.75lb)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "1%"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Fall, when growing conditions are good.",
+                remarks: "Herbicide application may increase palatability of these poisonous plants. Therefore, do not graze treated areas until the toxic plants dry up and lose their palatability. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "metsulfuron methyl dicamba:2,4-D (1:3)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "Rate 2"
+                    }, 
+                    IPT: {
+                        contolRating: null,
+                        rate: null
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Fall, when growing conditions are good.",
+                remarks: "Herbicide application may increase palatability of these poisonous plants. Therefore, do not graze treated areas until the toxic plants dry up and lose their palatability. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "dicamba:2,4-D (1:3)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "32oz (1lb)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "2%"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Fall, when growing conditions are good.",
+                remarks: "Herbicide application may increase palatability of these poisonous plants. Therefore, do not graze treated areas until the toxic plants dry up and lose their palatability. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "dicamba:2,4-D (1:1.3) + 2,4-D amine or low volatile ester",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "9-22oz (0.28-0.69lb) dicamba:2,4-D (1:1.3) + 14-32oz (0.44-1lb) 2,4-D (4lb/gal product)"
+                    }, 
+                    IPT: {
+                        contolRating: null,
+                        rate: null
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Fall, when growing conditions are good.",
+                remarks: "Herbicide application may increase palatability of these poisonous plants. Therefore, do not graze treated areas until the toxic plants dry up and lose their palatability. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            }, 
+
+            {
+                herbicideName: "dicamba + 2,4-D amine or low volatile ester",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "12oz (0.375lb) dicamba + 36oz (1.125lb) 2,4-D (4lb/gal product)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "0.5% dicamba + 1.5% 2,4-D (4lb/gal product)"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Fall, when growing conditions are good.",
+                remarks: "Herbicide application may increase palatability of these poisonous plants. Therefore, do not graze treated areas until the toxic plants dry up and lose their palatability. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            }
+        ]
+    }, 
+
+    {
+        plantName: ["gray goldaster", "narrowleaf goldaster"],
         herbicides: [
             {
                 herbicideName: "",
@@ -1162,8 +1551,8 @@ const weedControl = [
                     }
                 },
                 sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
-                timing: "Spring, when growth conditions are good.",
-                remarks: "Picloram:2,4-D (1:4), dicamba:2,4-D (1:3), and mixtures of dicamba:2,4-D and picloram:2,4-D are more effective than 2,4-D alone when growth conditions are less than optimal. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+                timing: "Spring, during bud stage (pre-bloom).",
+                remarks: "Bud stage usually occurs mid-May to early-June. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
             },
 
             {
@@ -1179,8 +1568,8 @@ const weedControl = [
                     }
                 },
                 sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
-                timing: "Spring, when growth conditions are good.",
-                remarks: "Picloram:2,4-D (1:4), dicamba:2,4-D (1:3), and mixtures of dicamba:2,4-D and picloram:2,4-D are more effective than 2,4-D alone when growth conditions are less than optimal. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+                timing: "Spring, during bud stage (pre-bloom).",
+                remarks: "Bud stage usually occurs mid-May to early-June. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
             },
 
             {
@@ -1196,8 +1585,8 @@ const weedControl = [
                     }
                 },
                 sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
-                timing: "Spring, when growth conditions are good.",
-                remarks: "Picloram:2,4-D (1:4), dicamba:2,4-D (1:3), and mixtures of dicamba:2,4-D and picloram:2,4-D are more effective than 2,4-D alone when growth conditions are less than optimal. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+                timing: "Spring, during bud stage (pre-bloom).",
+                remarks: "Bud stage usually occurs mid-May to early-June. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
             },
 
             {
@@ -1213,8 +1602,8 @@ const weedControl = [
                     }
                 },
                 sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
-                timing: "Spring, when growth conditions are good.",
-                remarks: "Picloram:2,4-D (1:4), dicamba:2,4-D (1:3), and mixtures of dicamba:2,4-D and picloram:2,4-D are more effective than 2,4-D alone when growth conditions are less than optimal. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+                timing: "Spring, during bud stage (pre-bloom).",
+                remarks: "Bud stage usually occurs mid-May to early-June. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
             },
 
             {
@@ -1230,8 +1619,8 @@ const weedControl = [
                     }
                 },
                 sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
-                timing: "Spring, when growth conditions are good.",
-                remarks: "Picloram:2,4-D (1:4), dicamba:2,4-D (1:3), and mixtures of dicamba:2,4-D and picloram:2,4-D are more effective than 2,4-D alone when growth conditions are less than optimal. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+                timing: "Spring, during bud stage (pre-bloom).",
+                remarks: "Bud stage usually occurs mid-May to early-June. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
             },
 
             {
@@ -1247,8 +1636,8 @@ const weedControl = [
                     }
                 },
                 sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
-                timing: "Spring, when growth conditions are good.",
-                remarks: "Picloram:2,4-D (1:4), dicamba:2,4-D (1:3), and mixtures of dicamba:2,4-D and picloram:2,4-D are more effective than 2,4-D alone when growth conditions are less than optimal. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+                timing: "Spring, during bud stage (pre-bloom).",
+                remarks: "Bud stage usually occurs mid-May to early-June. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
             },
 
             {
@@ -1264,8 +1653,8 @@ const weedControl = [
                     }
                 },
                 sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
-                timing: "Spring, when growth conditions are good.",
-                remarks: "Picloram:2,4-D (1:4), dicamba:2,4-D (1:3), and mixtures of dicamba:2,4-D and picloram:2,4-D are more effective than 2,4-D alone when growth conditions are less than optimal. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+                timing: "Spring, during bud stage (pre-bloom).",
+                remarks: "Bud stage usually occurs mid-May to early-June. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
             },
 
             {
@@ -1281,8 +1670,8 @@ const weedControl = [
                     }
                 },
                 sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
-                timing: "Spring, when growth conditions are good.",
-                remarks: "Picloram:2,4-D (1:4), dicamba:2,4-D (1:3), and mixtures of dicamba:2,4-D and picloram:2,4-D are more effective than 2,4-D alone when growth conditions are less than optimal. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+                timing: "Spring, during bud stage (pre-bloom).",
+                remarks: "Bud stage usually occurs mid-May to early-June. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
             }, 
 
             {
@@ -1298,8 +1687,8 @@ const weedControl = [
                     }
                 },
                 sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
-                timing: "Spring, when growth conditions are good.",
-                remarks: "Picloram:2,4-D (1:4), dicamba:2,4-D (1:3), and mixtures of dicamba:2,4-D and picloram:2,4-D are more effective than 2,4-D alone when growth conditions are less than optimal. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+                timing: "Spring,during bud stage (pre-bloom).",
+                remarks: "Bud stage usually occurs mid-May to early-June. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
             },
 
             {
@@ -1315,8 +1704,42 @@ const weedControl = [
                     }
                 },
                 sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
-                timing: "Spring, when growth conditions are good.",
-                remarks: "Picloram:2,4-D (1:4), dicamba:2,4-D (1:3), and mixtures of dicamba:2,4-D and picloram:2,4-D are more effective than 2,4-D alone when growth conditions are less than optimal. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+                timing: "Spring, during bud stage (pre-bloom).",
+                remarks: "Bud stage usually occurs mid-May to early-June. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            }, 
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, during bud state (pre-bloom).",
+                remarks: "Bud stage usually occurs mid-May to early-June. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            }, 
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, during bud stage (pre-bloom).",
+                remarks: "Bud stage usually occurs mid-May to early-June. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
             }
         ]
     }, 
@@ -2588,8 +3011,289 @@ const weedControl = [
                 remarks: ""
             }
         ]
+    },
+
+    {
+        plantName: [],
+        herbicides: [
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            }
+        ]
     }, 
 
+    {
+        plantName: [],
+        herbicides: [
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            },
+
+            {
+                herbicideName: "",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "",
+                        rate: ""
+                    }, 
+                    IPT: {
+                        contolRating: "",
+                        rate: ""
+                    }
+                },
+                sprayVolume: "",
+                timing: "",
+                remarks: ""
+            }
+        ]
+    }
 ];
 
 const brushControl = [
