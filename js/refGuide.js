@@ -1539,15 +1539,15 @@ const weedControl = [
         plantName: ["gray goldaster", "narrowleaf goldaster"],
         herbicides: [
             {
-                herbicideName: "",
+                herbicideName: "2,4-D low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "32oz (1lb)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "1%"
                     }
                 },
                 sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
@@ -1556,15 +1556,15 @@ const weedControl = [
             },
 
             {
-                herbicideName: "",
+                herbicideName: "picloram:2,4-D (1:4) (3.8lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "34oz (1lb)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "0.63%"
                     }
                 },
                 sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
@@ -1573,15 +1573,15 @@ const weedControl = [
             },
 
             {
-                herbicideName: "",
+                herbicideName: "picloram:2,4-D (1:4) (2.5lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "51oz (1lb)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "1%"
                     }
                 },
                 sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
@@ -1590,15 +1590,15 @@ const weedControl = [
             },
 
             {
-                herbicideName: "",
+                herbicideName: "picloram + 2,4-D low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "13oz (0.2lb) picloram + 26oz (0.8lb) 2,4-D (4lb/gal product)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "0.25% picloram + 0.50% 2,4-D (4lb/gal product)"
                     }
                 },
                 sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
@@ -1607,15 +1607,15 @@ const weedControl = [
             },
 
             {
-                herbicideName: "",
+                herbicideName: "picloram:fluroxypyr (1:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "32oz (0.33lb)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "1%"
                     }
                 },
                 sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
@@ -1624,15 +1624,15 @@ const weedControl = [
             },
 
             {
-                herbicideName: "",
+                herbicideName: "triclopyr:fluroxypyr (3:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H",
+                        rate: "16-24oz (0.5-0.75lb)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "0.5%"
                     }
                 },
                 sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
@@ -1641,15 +1641,15 @@ const weedControl = [
             },
 
             {
-                herbicideName: "",
+                herbicideName: "metsulfuron methyl dicamba:2,4-D (1:3)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H-VH",
+                        rate: "Rate 1-Rate 2"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }
                 },
                 sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
@@ -1658,15 +1658,15 @@ const weedControl = [
             },
 
             {
-                herbicideName: "",
+                herbicideName: "dicamba:2,4-D (1:3)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "32oz (1lb)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "1%"
                     }
                 },
                 sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
@@ -1675,15 +1675,15 @@ const weedControl = [
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "dicamba:2,4-D (1:1.3) + 2,4-D amine or low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "9-22oz (0.28-0.69lb) dicamba:2,4-D (1:1.3) + 14-32oz (0.44-1lb) 2,4-D (4lb/gal product)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }
                 },
                 sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
@@ -1692,904 +1692,583 @@ const weedControl = [
             },
 
             {
-                herbicideName: "",
+                herbicideName: "dicamba + 2,4-D low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "8oz (0.25lb) dicamba + 24oz (0.75lb) 2,4-D (4lb/gal product)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "0.25% dicamba + 0.75% 2,4-D (4lb/gal product)"
                     }
                 },
                 sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
                 timing: "Spring, during bud stage (pre-bloom).",
                 remarks: "Bud stage usually occurs mid-May to early-June. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
-            }, 
+            } 
+        ]
+    }, 
 
+    {
+        plantName: ["lespedeza"],
+        herbicides: [
             {
-                herbicideName: "",
+                herbicideName: "triclopyr",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "16-32oz (0.50-1.0lb)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
+                    }
+                },
+                sprayVolume: "Ground broadcast 20-30gal per acre with 32-64oz surfactant/100gal water.",
+                timing: "June-Aug under good growing conditions.",
+                remarks: "Plants need to be 12-18in. tall before spraying. USe the gigher rate if plants are large, approaching maturity, or if the infestation level is high. "
+            },
+
+            {
+                herbicideName: "metsulfuron methyl",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "H",
+                        rate: "0.5oz"
+                    }, 
+                    IPT: {
+                        contolRating: null,
+                        rate: null
+                    }
+                },
+                sprayVolume: "Ground broadcast 20-30gal per acre with 32-64oz surfactant/100gal water.",
+                timing: "June-Aug under good growing conditions.",
+                remarks: "Begin application at flower bud initiation through full bloom. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "metsulfuron:chlorosulfuron (3:1)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "H",
+                        rate: "0.7oz"
+                    }, 
+                    IPT: {
+                        contolRating: null,
+                        rate: null
+                    }
+                },
+                sprayVolume: "Ground broadcast 20-30gal per acre with 32-64oz surfactant/100gal water.",
+                timing: "June-Aug under good growing conditions.",
+                remarks: "Begin application at flower bud initiation through full bloom. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "metsulfuron:chlorosulfuron (1:1)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "H",
+                        rate: "1.0oz"
+                    }, 
+                    IPT: {
+                        contolRating: null,
+                        rate: null
+                    }
+                },
+                sprayVolume: "Ground broadcast 20-30gal per acre with 32-64oz surfactant/100gal water.",
+                timing: "June-Aug under good growing conditions.",
+                remarks: "Begin application at flower bud initiation through full bloom. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "metsulfuron methyl dicamba:2,4-D (1:3)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "H",
+                        rate: "Rate 2"
+                    }, 
+                    IPT: {
+                        contolRating: null,
+                        rate: null
+                    }
+                },
+                sprayVolume: "Ground broadcast 20-30gal per acre with 32-64oz surfactant/100gal water.",
+                timing: "June-Aug under good growing conditions.",
+                remarks: "Begin application at flower bud initiation through full bloom. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "picloram:fluroxypyr (1:1)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "24-32oz (0.25-0.33lb)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "1%"
+                    }
+                },
+                sprayVolume: "Ground broadcast 20-30gal per acre with 32-64oz surfactant/100gal water.",
+                timing: "June-Aug under good growing conditions.",
+                remarks: "Begin application at flower bud initiation through full bloom. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "triclopyr:fluroxypyr (3:1)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "12-16oz (0.38-0.5lb)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "0.5%"
+                    }
+                },
+                sprayVolume: "Ground broadcast 20-30gal per acre with 32-64oz surfactant/100gal water.",
+                timing: "June-Aug under good growing conditions.",
+                remarks: "Begin application at flower bud initiation through full bloom. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            } 
+        ]
+    }, 
+
+    {
+        plantName: ["rayless goldenrod (jimmyweed)"],
+        herbicides: [
+            {
+                herbicideName: "metsulfuron methyl",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "0.75oz"
+                    }, 
+                    IPT: {
+                        contolRating: null,
+                        rate: null
                     }
                 },
                 sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
-                timing: "Spring, during bud state (pre-bloom).",
-                remarks: "Bud stage usually occurs mid-May to early-June. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
-            }, 
+                timing: "Fall",
+                remarks: "Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            },
 
             {
-                herbicideName: "",
+                herbicideName: "metsulfuron:chlorosulfuron (3:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "1.0oz"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }
                 },
                 sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
-                timing: "Spring, during bud stage (pre-bloom).",
-                remarks: "Bud stage usually occurs mid-May to early-June. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year. Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+                timing: "Fall",
+                remarks: "Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "metsulfuron:chlorosulfuron (1:1)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "1.5oz"
+                    }, 
+                    IPT: {
+                        contolRating: null,
+                        rate: null
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Fall",
+                remarks: "Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "picloram:fluroxypyr (1:1)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "96oz (1.0lb)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "2%"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Fall",
+                remarks: "Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            },
+
+            {
+                herbicideName: "picloram",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "32oz (0.6lb)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "1%"
+                    }
+                },
+                sprayVolume: "2-4 gal water for aerial spray; 10-25gal water for ground broadcast application. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Fall",
+                remarks: "Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            } 
+        ]
+    }, 
+
+    {
+        plantName: ["spiny aster (wolfweed)"],
+        herbicides: [
+            {
+                herbicideName: "picloram:2,4-D (1:4) (3.8lb/gal product)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "20oz (0.6lb)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "0.63%"
+                    }
+                },
+                sprayVolume: "10-25gal water for ground broadcast application. Thoroughly wet foliage for individual platn treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, during good moisture and growth conditions.",
+                remarks: "Shred plants during winter. Regrowth will have leaves. Apply herbicide when regrowth is 10-12in. tall. Picloram:2,4-D (1:4), (3.8lb/gal product): do not apply more than 80oz/acre per year."
+            },
+
+            {
+                herbicideName: "picloram:2,4-D (1:4) (2.5lb/gal product)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "32oz (0.63lb)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "1%"
+                    }
+                },
+                sprayVolume: "10-25gal water for ground broadcast application. Thoroughly wet foliage for individual platn treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, during good moisture and growth conditions.",
+                remarks: "Shred plants during winter. Regrowth will have leaves. Apply herbicide when regrowth is 10-12in. tall. Picloram:2,4-D (1:4), (3.8lb/gal product): do not apply more than 80oz/acre per year."
+            },
+
+            {
+                herbicideName: "picloram + 2,4-D amine or low volatile ester",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "8oz (0.125lb) picloram + 16oz (0.5lb) 2,4-D (4lb/gal product)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "0.25% picloram + 0.5% 2,4-D (4lb/gal product)"
+                    }
+                },
+                sprayVolume: "10-25gal water for ground broadcast application. Thoroughly wet foliage for individual platn treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, during good moisture and growth conditions.",
+                remarks: "Shred plants during winter. Regrowth will have leaves. Apply herbicide when regrowth is 10-12in. tall. Picloram:2,4-D (1:4), (3.8lb/gal product): do not apply more than 80oz/acre per year."
+            },
+
+            {
+                herbicideName: "picloram:fluroxypyr (1:1)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "24-32oz (0.25-0.33lb)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "1%"
+                    }
+                },
+                sprayVolume: "10-25gal water for ground broadcast application. Thoroughly wet foliage for individual platn treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, during good moisture and growth conditions.",
+                remarks: "Shred plants during winter. Regrowth will have leaves. Apply herbicide when regrowth is 10-12in. tall. Picloram:2,4-D (1:4), (3.8lb/gal product): do not apply more than 80oz/acre per year."
+            },
+
+            {
+                herbicideName: "triclopyr:fluroxypyr (3:1)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "H",
+                        rate: "16-24oz (0.5-0.75lb)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "0.5%"
+                    }
+                },
+                sprayVolume: "10-25gal water for ground broadcast application. Thoroughly wet foliage for individual platn treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, during good moisture and growth conditions.",
+                remarks: "Shred plants during winter. Regrowth will have leaves. Apply herbicide when regrowth is 10-12in. tall. Picloram:2,4-D (1:4), (3.8lb/gal product): do not apply more than 80oz/acre per year."
+            },
+
+            {
+                herbicideName: "dicamba:2,4-D (1:3)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "32oz (1lb)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "1%"
+                    }
+                },
+                sprayVolume: "10-25gal water for ground broadcast application. Thoroughly wet foliage for individual platn treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, during good moisture and growth conditions.",
+                remarks: "Shred plants during winter. Regrowth will have leaves. Apply herbicide when regrowth is 10-12in. tall. Picloram:2,4-D (1:4), (3.8lb/gal product): do not apply more than 80oz/acre per year."
+            },
+
+            {
+                herbicideName: "dicamba:2,4-D (1:1.3) + 2,4-D amine or low volatile ester",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "9-22oz (0.28-0.69lb) dicamba:2,4-D (1:1.3) + 14-32oz (0.44-1lb) 2,4-D (4lb/gal product)"
+                    }, 
+                    IPT: {
+                        contolRating: null,
+                        rate: null
+                    }
+                },
+                sprayVolume: "10-25gal water for ground broadcast application. Thoroughly wet foliage for individual platn treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, during good moisture and growth conditions.",
+                remarks: "Shred plants during winter. Regrowth will have leaves. Apply herbicide when regrowth is 10-12in. tall. Picloram:2,4-D (1:4), (3.8lb/gal product): do not apply more than 80oz/acre per year."
+            },
+
+            {
+                herbicideName: "dicamba + 2,4-D amine or low volatile ester",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "VH",
+                        rate: "8oz (0.25lb) dicamba + 24oz (0.75lb) 2,4-D (4lb/gal product)"
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "0.25% dicamba + 0.75% 2,4-D (4lb/gal product)"
+                    }
+                },
+                sprayVolume: "10-25gal water for ground broadcast application. Thoroughly wet foliage for individual platn treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, during good moisture and growth conditions.",
+                remarks: "Shred plants during winter. Regrowth will have leaves. Apply herbicide when regrowth is 10-12in. tall. Picloram:2,4-D (1:4), (3.8lb/gal product): do not apply more than 80oz/acre per year."
             }
         ]
     }, 
 
     {
-        plantName: [],
+        plantName: ["threadleaf groundsel"],
         herbicides: [
             {
-                herbicideName: "",
+                herbicideName: "metsulfuron methyl",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "0.4oz"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "2-4gal water for aerial spray; 10-25gal water for ground broadcast application. Add 32-64oz surfactant/100gal water.",
+                timing: "Fall",
+                remarks: "Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
             },
 
             {
-                herbicideName: "",
+                herbicideName: "metsulfuron:chlorosulfuron (3:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "0.5oz"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "2-4gal water for aerial spray; 10-25gal water for ground broadcast application. Add 32-64oz surfactant/100gal water.",
+                timing: "Fall",
+                remarks: "Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
             },
 
             {
-                herbicideName: "",
+                herbicideName: "metsulfuron:chlorosulfuron (1:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "0.8oz"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "2-4gal water for aerial spray; 10-25gal water for ground broadcast application. Add 32-64oz surfactant/100gal water.",
+                timing: "Fall",
+                remarks: "Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
             },
 
             {
-                herbicideName: "",
+                herbicideName: "metsulfuron methyl dicamba:2,4-D (1:3)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "Rate 2"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }
+                sprayVolume: "2-4gal water for aerial spray; 10-25gal water for ground broadcast application. Add 32-64oz surfactant/100gal water.",
+                timing: "Fall",
+                remarks: "Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            } 
         ]
     }, 
 
     {
-        plantName: [],
+        plantName: ["twinleaf senna (twoleaf senna)"],
         herbicides: [
             {
-                herbicideName: "",
+                herbicideName: "picloram:2,4-D (1:4), (3.8lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "0.63%"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "Throughly wet foliage. Mix with water and add 32-64oz surfactant/100gal spray mix.",
+                timing: "Late Spring, good moisture and growth conditions.",
+                remarks: "Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year."
             },
 
             {
-                herbicideName: "",
+                herbicideName: "picloram:2,4-D (1:4), (2.5lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "1%"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "Throughly wet foliage. Mix with water and add 32-64oz surfactant/100gal spray mix.",
+                timing: "Late Spring, good moisture and growth conditions.",
+                remarks: "Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year."
             },
 
             {
-                herbicideName: "",
+                herbicideName: "picloram:fluroxypyr (1:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "1%"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "Throughly wet foliage. Mix with water and add 32-64oz surfactant/100gal spray mix.",
+                timing: "Late Spring, good moisture and growth conditions.",
+                remarks: "Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year."
             },
 
             {
-                herbicideName: "",
+                herbicideName: "dicamba:2,4-D (1:3)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "1%"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }
+                sprayVolume: "Throughly wet foliage. Mix with water and add 32-64oz surfactant/100gal spray mix.",
+                timing: "Late Spring, good moisture and growth conditions.",
+                remarks: "Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year."
+            } 
         ]
     }, 
 
     {
-        plantName: [],
+        plantName: ["upright prairie-coneflower"],
         herbicides: [
             {
-                herbicideName: "",
+                herbicideName: "metsulfuron methyl",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "0.2oz"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "2-4gal water for aerial spray. 10-25gal water for ground broadcast application. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, before flower stalk development.",
+                remarks: "Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
             },
 
             {
-                herbicideName: "",
+                herbicideName: "metsulfuron:chlorosulfuron (3:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "0.25oz"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "2-4gal water for aerial spray. 10-25gal water for ground broadcast application. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, before flower stalk development.",
+                remarks: "Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
             },
 
             {
-                herbicideName: "",
+                herbicideName: "metsulfuron:chlorosulfuron (1:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "0.4oz"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }
+                sprayVolume: "2-4gal water for aerial spray. 10-25gal water for ground broadcast application. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, before flower stalk development.",
+                remarks: "Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
+            } 
         ]
-    }, 
+    } 
+];
 
-    {
-        plantName: [],
-        herbicides: [
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }
-        ]
-    }, 
-
-    {
-        plantName: [],
-        herbicides: [
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }
-        ]
-    }, 
-
-    {
-        plantName: [],
-        herbicides: [
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            },
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }
-        ]
-    }, 
-
+const brushControl = [
     {
         plantName: [],
         herbicides: [
@@ -3293,10 +2972,8 @@ const weedControl = [
                 remarks: ""
             }
         ]
-    }
-];
+    }, 
 
-const brushControl = [
     {
         plantName: [],
         herbicides: [
