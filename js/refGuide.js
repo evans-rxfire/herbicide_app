@@ -3236,2098 +3236,973 @@ const brushControl = [
         plantName: ["common or eastern persimmon"],
         herbicides: [
             {
-                herbicideName: "",
+                herbicideName: "dicamba",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "L",
+                        rate: "64oz (2lb)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H",
+                        rate: "1%"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "Ground broadcast 15-20gal water. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, when leaves are fully developed.",
+                remarks: null
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "picloram:fluroxypyr (1:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "1-2%"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "Ground broadcast 15-20gal water. Thoroughly wet foliage for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, when leaves are fully developed.",
+                remarks: null
             } 
         ]
     }, 
 
     {
-        plantName: [],
+        plantName: ["creosotebush", "tarbush", "whitethorn acacia"],
         herbicides: [
             {
-                herbicideName: "",
+                herbicideName: "tebuthiuron 20% pellets",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H",
+                        rate: "3.75-5lb of pellets (0.75-1lb active ingredient)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "0.5oz pellets (0.1oz active ingredient)/100sqft of ground area"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: null,
+                timing: "Anytime - optimum period is May 1-Jul 1.",
+                remarks: "Use 5 lb pellets/ac when soil is a loam, silt loam, silt, sandy clay loam, or clay loam. Use low rate when soil is a sand, loamy sand, or sandy loam. Do not treat mountainside or gravelly ridges with slopes of 7% or more. Do not treat if soils have a cation exchange capacity greater than 30 meq/100 grams (commonly called “gyp” soils). For individual plant treatment, apply pellets evenly on soil under the plant canopy and 1ft beyond the canopy edge."
             } 
         ]
     }, 
 
     {
-        plantName: [],
+        plantName: ["eastern redcedar"],
         herbicides: [
             {
-                herbicideName: "",
+                herbicideName: "picloram",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "4ml/3ft height or canopy diameter, whichever is greater"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: null,
+                timing: "Spring or Fall",
+                remarks: "Apply undiluted hexazinone liquid, picloram, or hexazinone pellets to soil surface between the stem base and the edge of the canopy. Use an exact delivery handgun applicator to apply hexazinone liquid and picloram. If plant size requires more than one 4ml application of hexazinone liquid or picloram, or more than 2 hexazinone pellets, apply subsequent applications or pellets equally spaced around the plant. Do not use these treatments on marshy or poorly drained sites nor on soils classified as clays. Best results are expected on coarse-textured soils."
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "hexazinone liquid",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "4ml/3ft height or canopy diameter, whichever is greater, or 1in. trunk diameter"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: null,
+                timing: "Later winter through Summer",
+                remarks: "Apply undiluted hexazinone liquid, picloram, or hexazinone pellets to soil surface between the stem base and the edge of the canopy. Use an exact delivery handgun applicator to apply hexazinone liquid and picloram. If plant size requires more than one 4ml application of hexazinone liquid or picloram, or more than 2 hexazinone pellets, apply subsequent applications or pellets equally spaced around the plant. Do not use these treatments on marshy or poorly drained sites nor on soils classified as clays. Best results are expected on coarse-textured soils."
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "hexazinone pellet",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "2 pellets/3ft height or canopy diameter, whichever is greater, or 1in. trunk diameter"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: null,
+                timing: "Late Winter through Summer",
+                remarks: "Apply undiluted hexazinone liquid, picloram, or hexazinone pellets to soil surface between the stem base and the edge of the canopy. Use an exact delivery handgun applicator to apply hexazinone liquid and picloram. If plant size requires more than one 4ml application of hexazinone liquid or picloram, or more than 2 hexazinone pellets, apply subsequent applications or pellets equally spaced around the plant. Do not use these treatments on marshy or poorly drained sites nor on soils classified as clays. Best results are expected on coarse-textured soils."
             } 
         ]
     }, 
 
     {
-        plantName: [],
+        plantName: ["elm", "granjeno (spiny hackberry)", "hackberry", "pricklyash (Hercules club)", "yaupon"],
         herbicides: [
             {
-                herbicideName: "",
+                herbicideName: "tebuthiuron 20% pellets",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "0.5oz pellets (0.1oz active ingredient)/45sqft of ground area or 2-4in. of stem diameter"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: null,
+                timing: "Anytime during the year - optimum period is Oct 1-Apr 1, except in Trans-Pecos, where optimum period is May 1-Jul 1.",
+                remarks: "Apply pellets evenly on the soil under the plant canopy and 1ft beyond canopy edge."
             } 
         ]
     }, 
 
     {
-        plantName: [],
+        plantName: ["huisache", "lotebush"],
         herbicides: [
             {
-                herbicideName: "",
+                herbicideName: "tebuthiuron 20% pellets",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "L",
+                        rate: "0.5oz pellets (0.1oz active ingredient)/45sqft of ground area or 2-4in. of stem diameter"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                ssprayVolume: null,
+                timing: "Anytime during the year - optimum period is Oct 1-Apr 1, except in Trans-Pecos, where optimum period is May 1-Jul 1.",
+                remarks: "Apply pellets evenly on the soil under the plant canopy and 1ft beyond canopy edge."
             } 
         ]
     }, 
 
     {
-        plantName: [],
+        plantName: ["flameleaf sumac"],
         herbicides: [
             {
-                herbicideName: "",
+                herbicideName: "picloram:2,4-D (1:4) (3.8lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "0.63%"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, the minimum suggested total spray volume is 4gal/ac. Use water + surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 10-25gal/ac. Use water + surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage for individual plant treatments. Add 32-64oz surfactant/100gal water.",
+                timing: "Late Spring, when leaves mature.",
+                remarks: "Picloram:2,4-D (1:4) (3.8lb/gal product): Do not apply more than 80oz/acre per year."
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "picloram:2,4-D (1:4) (2.5lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "1%"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, the minimum suggested total spray volume is 4gal/ac. Use water + surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 10-25gal/ac. Use water + surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage for individual plant treatments. Add 32-64oz surfactant/100gal water.",
+                timing: "Late Spring, when leaves mature.",
+                remarks: null
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "picloram:fluroxypyr (1:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H",
+                        rate: "48-96oz (0.5-1.0lb)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "0.75%"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, the minimum suggested total spray volume is 4gal/ac. Use water + surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 10-25gal/ac. Use water + surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage for individual plant treatments. Add 32-64oz surfactant/100gal water.",
+                timing: "Late Spring, when leaves mature.",
+                remarks: null
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "picloram",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H",
+                        rate: "16-32oz (0.25-0.5lb)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "0.5%"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, the minimum suggested total spray volume is 4gal/ac. Use water + surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 10-25gal/ac. Use water + surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage for individual plant treatments. Add 32-64oz surfactant/100gal water.",
+                timing: "Late Spring, when leaves mature.",
+                remarks: null
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "picloram + triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H",
+                        rate: "16oz (0.25lb) picloram + 8oz (0.25lb) triclopyr ester"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "0.25% picloram + 0.25% triclopyr ester"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, the minimum suggested total spray volume is 4gal/ac. Use water + surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 10-25gal/ac. Use water + surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage for individual plant treatments. Add 32-64oz surfactant/100gal water.",
+                timing: "Late Spring, when leaves mature.",
+                remarks: null
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "picloram + 2,4-D amine or low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "0.25% picloram + 0.5% 2,4-D (4lb/gal product)"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, the minimum suggested total spray volume is 4gal/ac. Use water + surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 10-25gal/ac. Use water + surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage for individual plant treatments. Add 32-64oz surfactant/100gal water.",
+                timing: "Late Spring, when leaves mature.",
+                remarks: null
             } 
         ]
     }, 
 
     {
-        plantName: [],
+        plantName: ["giant reed"],
         herbicides: [
             {
-                herbicideName: "",
+                herbicideName: "imazapyr",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "64oz (1lb)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "0.5%"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "Use a minimum 20-30gal/ac total volume of ground broadcast applications and a minimum 15gal/ac for aerial. When using individual plant applications, spray plants to runoff. Add 1% MSO to individual plant treatments and 32oz/ac for broadcast applications.",
+                timing: "Spray when plants are actiely growing during the Summer or Fall with a mimimum of 3ft plant height.",
+                remarks: "Do not mow plants for 3-4mo. after treatment. When exposure to aquatic environments is possible, use an herbicide with aquatic label."
             } 
         ]
     }, 
 
     {
-        plantName: [],
+        plantName: ["greenbriar"],
         herbicides: [
             {
-                herbicideName: "",
+                herbicideName: "dicamba + 2,4-D low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H",
+                        rate: "1.5% dicamba + 3% 2,4-D (4lb/gal product) in diesel fuel oil"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "Thoroughly wet stems with diesel/hebicide mix",
+                timing: "Winter",
+                remarks: "Use as a dormant stem treatment. Constant agitation is needed to maintain proper mixture."
             } 
         ]
     }, 
 
     {
-        plantName: [],
+        plantName: ["hardwoods >1in. diameter except mesquite and huisache"],
         herbicides: [
             {
-                herbicideName: "",
+                herbicideName: "2.4-D amine",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H",
+                        rate: "undiluted"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "Use tree injector or other injecting equipment. Apply in cuts spaced 2in. apart at base of trees. Apply until 2,4-D runs from each end of cut.",
+                timing: "Summer or Winter",
+                remarks: null
             } 
         ]
     }, 
 
     {
-        plantName: [],
+        plantName: ["honeylocust"],
         herbicides: [
             {
-                herbicideName: "",
+                herbicideName: "Picloram:2,4-D (1:4), (3.8lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "0.63%"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, the minimum suggested total spray volume is 5gal/acre. Use water plus surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 20-25gal/acre. Use water plus surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage, but not to the point of dripping, for individual plant treatments. Add 32-64oz of surfactant per 100gal.",
+                timing: "Late Spring after leaves mature through Summer.",
+                remarks: "Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year."
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "picloram:2,4-D (1:4), (2.5lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "1%"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, the minimum suggested total spray volume is 5gal/acre. Use water plus surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 20-25gal/acre. Use water plus surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage, but not to the point of dripping, for individual plant treatments. Add 32-64oz of surfactant per 100gal.",
+                timing: "Late Spring after leaves mature through Summer.",
+                remarks: null
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "aminopyralid:picloram:fluroxypyr (1:2:2)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "1%"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, the minimum suggested total spray volume is 5gal/acre. Use water plus surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 20-25gal/acre. Use water plus surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage, but not to the point of dripping, for individual plant treatments. Add 32-64oz of surfactant per 100gal.",
+                timing: "Late Spring after leaves mature through Summer.",
+                remarks: null
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "aminpyralid:clopyralid (1:4.6)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H",
+                        rate: "28oz (0.61lb)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "1%"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, the minimum suggested total spray volume is 5gal/acre. Use water plus surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 20-25gal/acre. Use water plus surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage, but not to the point of dripping, for individual plant treatments. Add 32-64oz of surfactant per 100gal.",
+                timing: "Late Spring after leaves mature through Summer.",
+                remarks: null
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "aminpyralid:2,4-D (1:8)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H",
+                        rate: "33.6oz (0.98lb)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "1%"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, the minimum suggested total spray volume is 5gal/acre. Use water plus surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 20-25gal/acre. Use water plus surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage, but not to the point of dripping, for individual plant treatments. Add 32-64oz of surfactant per 100gal.",
+                timing: "Late Spring after leaves mature through Summer.",
+                remarks: null
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "picloram:fluroxypyr (1:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "M-H",
+                        rate: "48oz (0.5lb)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, the minimum suggested total spray volume is 5gal/acre. Use water plus surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 20-25gal/acre. Use water plus surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage, but not to the point of dripping, for individual plant treatments. Add 32-64oz of surfactant per 100gal.",
+                timing: "Late Spring after leaves mature through Summer.",
+                remarks: null
             }, 
             {
-                herbicideName: "",
+                herbicideName: "aminpyralid:metsulfuron methyl (1:6.2)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "M-H",
+                        rate: "3.3oz (0.127lb)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, the minimum suggested total spray volume is 5gal/acre. Use water plus surfactant, crop oil, or methylated seed oil. For ground broadcast applications, the suggested total spray volume is 20-25gal/acre. Use water plus surfactant, crop oil, or methylated seed oil. Thoroughly wet foliage, but not to the point of dripping, for individual plant treatments. Add 32-64oz of surfactant per 100gal.",
+                timing: "Late Spring after leaves mature through Summer.",
+                remarks: "Because of metsulfuron methyl in the formulation, these herbicides are not recommended on bahiagrass pastures for weed control."
             } 
         ]
     }, 
 
     {
-        plantName: [],
+        plantName: ["huisache"],
         herbicides: [
             {
-                herbicideName: "",
+                herbicideName: "aminocyclopyrachlor:triclopyr amine (1:2)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "36-48oz(0.56-0.75lb)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "1.5%"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, use at least 4gal/ac. total spray volume. For dense canopies, carrier volume may be increased to 10gal/ac. For ground broadcast applications, suggested total spray volume is 10-25gal/ac. Use 4-5fl oz/ac MSO or MSO-OS (organosilicone surfactant) spray adjuvant. For best results, use nozzles and pressure setting to deliver a mean spray droplet diameter within the range of 350 to 450 microns. For IPT, thoroughly spray foliage to wet but not dripping. Add 32-64oz (0.25-0.5%) nonionic surfactant/100gal water.",
+                timing: "The best results are achieved in the fall months (typically late September-November 1). Do not spray when soil temperature at a depth of 12in. is below 75° F. For optimum root-kill, do not spray when >25% of the leaf canopy is damaged due to insects, disease, or hail. Apply with good soil moisture conditions and a full, healthy leaf canopy. May be best after cumulative rainfall of 4in. or more during the 4 weeks prior to treatment or 3in. or more during the 2 weeks prior to treatment.",
+                remarks: "Aminocyclopyrachlor:triclopyr amine requires specific picolinic acid chemistry training and certification before use. See label for additional site-use information and restrictions. Higher plant-kill can be expected for trees under 7ft. tall. If plants are shredded, wait until regrowth is 3ft. tall or higher before treatment."
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "aminopyralid:clopyralid (1:4.6) + picloram",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "M-H",
+                        rate: "28oz (0.61lb) aminopyralid:clopyralid + 32oz (0.5lb) picloram"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, use at least 4gal/ac. total spray volume. For dense canopies, carrier volume may be increased to 10gal/ac. For ground broadcast applications, suggested total spray volume is 10-25gal/ac. Use 4-5fl oz/ac MSO or MSO-OS (organosilicone surfactant) spray adjuvant. For best results, use nozzles and pressure setting to deliver a mean spray droplet diameter within the range of 350 to 450 microns.",
+                timing: "The best results are achieved in the fall months (typically late September-November 1). Do not spray when soil temperature at a depth of 12in. is below 75° F. For optimum root-kill, do not spray when >25% of the leaf canopy is damaged due to insects, disease, or hail. Apply with good soil moisture conditions and a full, healthy leaf canopy. May be best after cumulative rainfall of 4in. or more during the 4 weeks prior to treatment or 3in. or more during the 2 weeks prior to treatment.",
+                remarks: "Higher plant-kill can be expected for trees under 7ft. tall. If plants are shredded, wait until regrowth is 3ft. tall or higher before treatment."
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "aminpyralid:2,4-D (1:8) + picloram:2,4-D (1:4) + picloram",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "M-H",
+                        rate: "34oz (0.99lb) aminopyralid:2,4-D + 72oz (1.4lb) picloram:2,4-D + 13oz (0.2lb) picloram"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, use at least 4gal/ac. total spray volume. For dense canopies, carrier volume may be increased to 10gal/ac. For ground broadcast applications, suggested total spray volume is 10-25gal/ac. Use 4-5fl oz/ac MSO or MSO-OS (organosilicone surfactant) spray adjuvant. For best results, use nozzles and pressure setting to deliver a mean spray droplet diameter within the range of 350 to 450 microns.",
+                timing: "The best results are achieved in the fall months (typically late September-November 1). Do not spray when soil temperature at a depth of 12in. is below 75° F. For optimum root-kill, do not spray when >25% of the leaf canopy is damaged due to insects, disease, or hail. Apply with good soil moisture conditions and a full, healthy leaf canopy. May be best after cumulative rainfall of 4in. or more during the 4 weeks prior to treatment or 3in. or more during the 2 weeks prior to treatment.",
+                remarks: "Higher plant-kill can be expected for trees under 7ft. tall. If plants are shredded, wait until regrowth is 3ft. tall or higher before treatment. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year."
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "picloram + triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "L-M",
+                        rate: "32oz (0.5lb) picloram + 16oz (0.5lb) triclopyr ester"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H",
+                        rate: "0.5% picloram + 0.5% triclopyr ester"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, use at least 4gal/ac. total spray volume. For dense canopies, carrier volume may be increased to 10gal/ac. For ground broadcast applications, suggested total spray volume is 10-25gal/ac. Use 4-5fl oz/ac MSO or MSO-OS (organosilicone surfactant) spray adjuvant. For best results, use nozzles and pressure setting to deliver a mean spray droplet diameter within the range of 350 to 450 microns. For IPT, thoroughly spray foliage to wet but not dripping. Add 32-64oz (0.25-0.5%) nonionic surfactant/100gal water.",
+                timing: "The best results are achieved in the fall months (typically late September-November 1). Do not spray when soil temperature at a depth of 12in. is below 75° F. For optimum root-kill, do not spray when >25% of the leaf canopy is damaged due to insects, disease, or hail. Apply with good soil moisture conditions and a full, healthy leaf canopy. May be best after cumulative rainfall of 4in. or more during the 4 weeks prior to treatment or 3in. or more during the 2 weeks prior to treatment.",
+                remarks: "Higher plant-kill can be expected for trees under 7ft. tall. If plants are shredded, wait until regrowth is 3ft. tall or higher before treatment."
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "picloram + clopyralid",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "L-M",
+                        rate: "32oz (0.5lb) picloram + 11-21oz (0.25-0.5lb) clopyralid"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H",
+                        rate: "0.5% picloram + 0.5% clopyralid"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, use at least 4gal/ac. total spray volume. For dense canopies, carrier volume may be increased to 10gal/ac. For ground broadcast applications, suggested total spray volume is 10-25gal/ac. Use 4-5fl oz/ac MSO or MSO-OS (organosilicone surfactant) spray adjuvant. For best results, use nozzles and pressure setting to deliver a mean spray droplet diameter within the range of 350 to 450 microns. For IPT, thoroughly spray foliage to wet but not dripping. Add 32-64oz (0.25-0.5%) nonionic surfactant/100gal water.",
+                timing: "The best results are achieved in the fall months (typically late September-November 1). Do not spray when soil temperature at a depth of 12in. is below 75° F. For optimum root-kill, do not spray when >25% of the leaf canopy is damaged due to insects, disease, or hail. Apply with good soil moisture conditions and a full, healthy leaf canopy. May be best after cumulative rainfall of 4in. or more during the 4 weeks prior to treatment or 3in. or more during the 2 weeks prior to treatment.",
+                remarks: "Higher plant-kill can be expected for trees under 7ft. tall. If plants are shredded, wait until regrowth is 3ft. tall or higher before treatment."
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "picloram:fluroxypyr (1:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "L-M",
+                        rate: "96oz (1.0lb)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H",
+                        rate: "1%"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, use at least 4gal/ac. total spray volume. For dense canopies, carrier volume may be increased to 10gal/ac. For ground broadcast applications, suggested total spray volume is 10-25gal/ac. Use 4-5fl oz/ac MSO or MSO-OS (organosilicone surfactant) spray adjuvant. For best results, use nozzles and pressure setting to deliver a mean spray droplet diameter within the range of 350 to 450 microns. For IPT, thoroughly spray foliage to wet but not dripping. Add 32-64oz (0.25-0.5%) nonionic surfactant/100gal water.",
+                timing: "The best results are achieved in the fall months (typically late September-November 1). Do not spray when soil temperature at a depth of 12in. is below 75° F. For optimum root-kill, do not spray when >25% of the leaf canopy is damaged due to insects, disease, or hail. Apply with good soil moisture conditions and a full, healthy leaf canopy. May be best after cumulative rainfall of 4in. or more during the 4 weeks prior to treatment or 3in. or more during the 2 weeks prior to treatment.",
+                remarks: "Higher plant-kill can be expected for trees under 7ft. tall. If plants are shredded, wait until regrowth is 3ft. tall or higher before treatment."
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "picloram",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "L-M",
+                        rate: "32oz (0.5lb)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H",
+                        rate: "1%"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "For aerial applications, use at least 4gal/ac. total spray volume. For dense canopies, carrier volume may be increased to 10gal/ac. For ground broadcast applications, suggested total spray volume is 10-25gal/ac. Use 4-5fl oz/ac MSO or MSO-OS (organosilicone surfactant) spray adjuvant. For best results, use nozzles and pressure setting to deliver a mean spray droplet diameter within the range of 350 to 450 microns. For IPT, thoroughly spray foliage to wet but not dripping. Add 32-64oz (0.25-0.5%) nonionic surfactant/100gal water.",
+                timing: "The best results are achieved in the fall months (typically late September-November 1). Do not spray when soil temperature at a depth of 12in. is below 75° F. For optimum root-kill, do not spray when >25% of the leaf canopy is damaged due to insects, disease, or hail. Apply with good soil moisture conditions and a full, healthy leaf canopy. May be best after cumulative rainfall of 4in. or more during the 4 weeks prior to treatment or 3in. or more during the 2 weeks prior to treatment.",
+                remarks: "Higher plant-kill can be expected for trees under 7ft. tall. If plants are shredded, wait until regrowth is 3ft. tall or higher before treatment."
+            }, 
+
+            {
+                herbicideName: "picloram:2,4-D (1:4), (3.8lb/gal product)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: null,
+                        rate: null
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "0.63%"
+                    }
+                },
+                sprayVolume: "For aerial applications, use at least 4gal/ac. total spray volume. For dense canopies, carrier volume may be increased to 10gal/ac. For ground broadcast applications, suggested total spray volume is 10-25gal/ac. Use 4-5fl oz/ac MSO or MSO-OS (organosilicone surfactant) spray adjuvant. For best results, use nozzles and pressure setting to deliver a mean spray droplet diameter within the range of 350 to 450 microns. For IPT, thoroughly spray foliage to wet but not dripping. Add 32-64oz (0.25-0.5%) nonionic surfactant/100gal water.",
+                timing: "The best results are achieved in the fall months (typically late September-November 1). Do not spray when soil temperature at a depth of 12in. is below 75° F. For optimum root-kill, do not spray when >25% of the leaf canopy is damaged due to insects, disease, or hail. Apply with good soil moisture conditions and a full, healthy leaf canopy. May be best after cumulative rainfall of 4in. or more during the 4 weeks prior to treatment or 3in. or more during the 2 weeks prior to treatment.",
+                remarks: "Higher plant-kill can be expected for trees under 7ft. tall. If plants are shredded, wait until regrowth is 3ft. tall or higher before treatment. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year."
+            },
+             
+            {
+                herbicideName: "picloram:2,4-D (1:4), (2.5lb/gal product)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: null,
+                        rate: null
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "1%"
+                    }
+                },
+                sprayVolume: "For aerial applications, use at least 4gal/ac. total spray volume. For dense canopies, carrier volume may be increased to 10gal/ac. For ground broadcast applications, suggested total spray volume is 10-25gal/ac. Use 4-5fl oz/ac MSO or MSO-OS (organosilicone surfactant) spray adjuvant. For best results, use nozzles and pressure setting to deliver a mean spray droplet diameter within the range of 350 to 450 microns. For IPT, thoroughly spray foliage to wet but not dripping. Add 32-64oz (0.25-0.5%) nonionic surfactant/100gal water.",
+                timing: "The best results are achieved in the fall months (typically late September-November 1). Do not spray when soil temperature at a depth of 12in. is below 75° F. For optimum root-kill, do not spray when >25% of the leaf canopy is damaged due to insects, disease, or hail. Apply with good soil moisture conditions and a full, healthy leaf canopy. May be best after cumulative rainfall of 4in. or more during the 4 weeks prior to treatment or 3in. or more during the 2 weeks prior to treatment.",
+                remarks: "Higher plant-kill can be expected for trees under 7ft. tall. If plants are shredded, wait until regrowth is 3ft. tall or higher before treatment."
+            }, 
+
+            {
+                herbicideName: "aminopyralid:clopyralid (1:4.6)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: null,
+                        rate: null
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "1%"
+                    }
+                },
+                sprayVolume: "For aerial applications, use at least 4gal/ac. total spray volume. For dense canopies, carrier volume may be increased to 10gal/ac. For ground broadcast applications, suggested total spray volume is 10-25gal/ac. Use 4-5fl oz/ac MSO or MSO-OS (organosilicone surfactant) spray adjuvant. For best results, use nozzles and pressure setting to deliver a mean spray droplet diameter within the range of 350 to 450 microns. For IPT, thoroughly spray foliage to wet but not dripping. Add 32-64oz (0.25-0.5%) nonionic surfactant/100gal water.",
+                timing: "The best results are achieved in the fall months (typically late September-November 1). Do not spray when soil temperature at a depth of 12in. is below 75° F. For optimum root-kill, do not spray when >25% of the leaf canopy is damaged due to insects, disease, or hail. Apply with good soil moisture conditions and a full, healthy leaf canopy. May be best after cumulative rainfall of 4in. or more during the 4 weeks prior to treatment or 3in. or more during the 2 weeks prior to treatment.",
+                remarks: "Higher plant-kill can be expected for trees under 7ft. tall. If plants are shredded, wait until regrowth is 3ft. tall or higher before treatment."
+            }, 
+
+            {
+                herbicideName: "aminopyralid:metsulfuron methyl (1:6.2)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "L",
+                        rate: "3.3oz (0.127lb)"
+                    }, 
+                    IPT: {
+                        contolRating: null,
+                        rate: null
+                    }
+                },
+                sprayVolume: "10-15gal water as aerial spray; 10-20gal water as ground broadcast. Add 32-64oz surfactant/100gal water.",
+                timing: "Fall, under good moisture conditions.",
+                remarks: "Because of metsulfuron methyl in the formulation, this herbicide is not recommended on bahiagrass pastures for weed and brush control."
+            }, 
+
+            {
+                herbicideName: "aminopyralid:metsulfuron methyl (1:6.2) + triclopyr ester",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "M-H",
+                        rate: "3.3oz (0.127lb) aminopyralid:metsulfuron methyl + 16oz (0.5lb) triclopyr ester"
+                    }, 
+                    IPT: {
+                        contolRating: null,
+                        rate: null
+                    }
+                },
+                sprayVolume: "10-15gal water as aerial spray; 10-20gal water as ground broadcast. Add 32-64oz surfactant/100gal water.",
+                timing: "Fall, under good moisture conditions.",
+                remarks: "Because of metsulfuron methyl in the formulation, this herbicide is not recommended on bahiagrass pastures for weed and brush control."
+            }, 
+
+            {
+                herbicideName: "aminopyralid:2,4-D (1:8)",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "L",
+                        rate: "24-34oz (0.7-0.98lb)"
+                    }, 
+                    IPT: {
+                        contolRating: null,
+                        rate: null
+                    }
+                },
+                sprayVolume: "10-15gal water as aerial spray; 10-20gal water as ground broadcast. Add 32-64oz surfactant/100gal water.",
+                timing: "Fall, under good moisture conditions.",
+                remarks: null
+            }, 
+
+            {
+                herbicideName: "aminopyralid:2,4-D (1:8) + triclopyr ester",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: "L",
+                        rate: "24oz (0.70lb) aminopyralid:2,4-D + 16oz (0.5lb) triclopyr ester"
+                    }, 
+                    IPT: {
+                        contolRating: null,
+                        rate: null
+                    }
+                },
+                sprayVolume: "10-15gal water as aerial spray; 10-20gal water as ground broadcast. Add 32-64oz surfactant/100gal water.",
+                timing: "Fall, under good moisture conditions.",
+                remarks: null
+            }, 
+            
+            {
+                herbicideName: "triclopyr ester",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: null,
+                        rate: null
+                    }, 
+                    IPT: {
+                        contolRating: "H",
+                        rate: "15% in diesel fuel oil"
+                    }
+                },
+                sprayVolume: "Apply to lower 12-18in. of trunk to wet the trunk; do not spray to point of runoff. Apply completely around the trunk.",
+                timing: "Anytime - optimim time is growing season when plants have mature leaves.",
+                remarks: "This is a Brush Busters® low volume basal application method. A 5500-X1 adjustable cone nozzle is preferred. Use only on plants with smooth bark and a trunk diameter less than 4in."
+            }, 
+
+            {
+                herbicideName: "triclopyr ester",
+                herbicideQuantity: {
+                    broadcast: {
+                        contolRating: null,
+                        rate: null
+                    }, 
+                    IPT: {
+                        contolRating: "VH",
+                        rate: "25% in diesel fuel"
+                    }
+                },
+                sprayVolume: "Apply to lower 12-18in. of trunk to wet the trunk; do not spray to point of runoff. Apply completely around the trunk.",
+                timing: "Anytime - optimim time is growing season when plants have mature leaves.",
+                remarks: "This is a Brush Busters® low volume basal application method. A 5500-X1 adjustable cone nozzle is preferred. Use only on plants with smooth bark and a trunk diameter less than 4in."
             } 
         ]
     }, 
 
     {
-        plantName: [],
+        plantName: ["lotebush"],
         herbicides: [
             {
-                herbicideName: "",
+                herbicideName: "triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "15% in diesel fuel"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "Apply to lower 12-18in. of trunk to wet the trunk; do not spray to point of runoff. Apply completely around the trunk.",
+                timing: "Anytime - optimim time is growing season when plants have mature leaves.",
+                remarks: "This is a Brush Busters® low volume basal application method. A 5500-X1 adjustable cone nozzle is preferred."
             } 
         ]
     }, 
 
     {
-        plantName: [],
+        plantName: ["Macartney rose (mowed/distured stands w/in 3yrs of disturbance)"],
         herbicides: [
             {
-                herbicideName: "",
+                herbicideName: "2,4-D amine",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "L",
+                        rate: "64oz (2lb) 4lb/gal product"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "L",
+                        rate: "1% 4lb/gal product"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "5-15 gal water as aerial spray; 25-30gal water as ground broadcast. Thoroughly wet foliage and stems for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, before Jun 1, good growth conditions.",
+                remarks: "Avoid spraying earlier than 9-12mo. after mowing or when plants have high percentage of new growth. Poor control may be expected if plants are <3ft tall when sprayed. Repeat treatment when necessary."
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "picloram:2,4-D (1:4), (3.8lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H",
+                        rate: "80oz (2.4lb)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "0.63%"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "5-15 gal water as aerial spray; 25-30gal water as ground broadcast. Thoroughly wet foliage and stems for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring or Fall, good growth conditions.",
+                remarks: "Avoid spraying earlier than 9-12mo. after mowing or when plants have high percentage of new growth. Poor control may be expected if plants are <3ft tall when sprayed. Repeat treatment when necessary. Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80oz/acre per year."
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "picloram:2,4-D (1:4), (2.5lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H",
+                        rate: "128oz (2.5lb)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "1%"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "5-15 gal water as aerial spray; 25-30gal water as ground broadcast. Thoroughly wet foliage and stems for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring of Fall, good growth conditions.",
+                remarks: "Avoid spraying earlier than 9-12mo. after mowing or when plants have high percentage of new growth. Poor control may be expected if plants are <3ft tall when sprayed. Repeat treatment when necessary."
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "picloram + 2,4-D amine or low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H",
+                        rate: "32oz (0.5lb) picloram + 64oz (2lb) 2,4-D (4lb/gal product)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "0.25% picloram + 0.5% 2,4-D (4lb/gal product)"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "5-15 gal water as aerial spray; 25-30gal water as ground broadcast. Thoroughly wet foliage and stems for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring or Fall, good growth conditions.",
+                remarks: "Avoid spraying earlier than 9-12mo. after mowing or when plants have high percentage of new growth. Poor control may be expected if plants are <3ft tall when sprayed. Repeat treatment when necessary."
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "2,4-D low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "L",
+                        rate: "64oz (2lb) 4lb/gal product"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "L",
+                        rate: "1% (4lb/gal product)"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "5-15 gal water as aerial spray; 25-30gal water as ground broadcast. Thoroughly wet foliage and stems for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Fall, under good moisture conditions, before Nov 1.",
+                remarks: "Avoid spraying earlier than 9-12mo. after mowing or when plants have high percentage of new growth. Poor control may be expected if plants are <3ft tall when sprayed. Repeat treatment when necessary."
             } 
         ]
     }, 
 
     {
-        plantName: [],
+        plantName: ["Macartney rose (undisturbed stands)"],
         herbicides: [
             {
-                herbicideName: "",
+                herbicideName: "2,4-D amine",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "L",
+                        rate: "128oz (4lb) 4lb/gal product"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "L",
+                        rate: "1% (4lb/gal product)"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "5-15 gal water as aerial spray; 25-30gal water as ground broadcast. Thoroughly wet foliage and stems for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring, before Jun 1, good growth conditions.",
+                remarks: null
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "picloram:2,4-D (1:4), (3.8lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H",
+                        rate: "80oz (2.4lb)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "0.63%"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "5-15 gal water as aerial spray; 25-30gal water as ground broadcast. Thoroughly wet foliage and stems for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring or Fall, good growth conditions.",
+                remarks: "Picloram:2,4-D (1:4), (3.8lb/gal product): Do not apply more than 80zo/acre per year."
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "picloram:2,4-D (1:4), (2.5lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H",
+                        rate: "128oz (2.5lb)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "1%"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "5-15 gal water as aerial spray; 25-30gal water as ground broadcast. Thoroughly wet foliage and stems for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring or Fall, good growth conditions.",
+                remarks: null
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "picloram + 2,4-D amine or low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "H",
+                        rate: "32oz (0.5lb) picloram + 64oz (2lb) 2,4-D (4lb/gal product)"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "VH",
+                        rate: "0.25% picloram + 0.5% 2,4-D (4lb/gal product)"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "5-15 gal water as aerial spray; 25-30gal water as ground broadcast. Thoroughly wet foliage and stems for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Spring or Fall, good growth conditions.",
+                remarks: null
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "2,4-D low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "L",
+                        rate: "96oz (3lb) 4lb/gal product"
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "L",
+                        rate: "1% (4lb/gal product)"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: "5-15 gal water as aerial spray; 25-30gal water as ground broadcast. Thoroughly wet foliage and stems for individual plant treatment. Add 32-64oz surfactant/100gal water.",
+                timing: "Fall, good moisture conditions, before Nov 1.",
+                remarks: null
             } 
         ]
     }, 
 
     {
-        plantName: [],
+        plantName: ["mesquite", "huisache"],
         herbicides: [
             {
-                herbicideName: "",
+                herbicideName: "hexazinone liquid",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "M-H",
+                        rate: "4-8lm/3ft of canopy diameter or height, whichever is greater"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: null,
+                timing: "Late Winter-Summer",
+                remarks: "Apply undiluted hexazinone liquid or hexazinone pellets to soil surface between the stem base and the edge of the canopy. Use an exact delivery handgun applicator to apply hexazinone liquid. If plant size requires more than a single 4ml application of hexazinone liquid, or 2 hexazinone pellets, apply subsequent applications or pellets equally spaced around the plant. Do not use these treatments on marshy or poorly drained sites nor on soils classified as clays. Best results are expected on coarse-textured soils."
             }, 
 
             {
-                herbicideName: "",
+                herbicideName: "hexazinone pellet",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: null,
+                        rate: null
                     }, 
                     IPT: {
-                        contolRating: "",
-                        rate: ""
+                        contolRating: "M-H",
+                        rate: "2-4 pellets/3ft of canopy diameter or height, whichever is greater"
                     }
                 },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
-            }, 
-
-            {
-                herbicideName: "",
-                herbicideQuantity: {
-                    broadcast: {
-                        contolRating: "",
-                        rate: ""
-                    }, 
-                    IPT: {
-                        contolRating: "",
-                        rate: ""
-                    }
-                },
-                sprayVolume: "",
-                timing: "",
-                remarks: ""
+                sprayVolume: null,
+                timing: "Late Winter-Summer",
+                remarks: "Apply undiluted hexazinone liquid or hexazinone pellets to soil surface between the stem base and the edge of the canopy. Use an exact delivery handgun applicator to apply hexazinone liquid. If plant size requires more than a single 4ml application of hexazinone liquid, or 2 hexazinone pellets, apply subsequent applications or pellets equally spaced around the plant. Do not use these treatments on marshy or poorly drained sites nor on soils classified as clays. Best results are expected on coarse-textured soils."
             } 
         ]
     }, 
