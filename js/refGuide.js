@@ -1,5 +1,33 @@
 const { useLayoutEffect } = require("react");
 
+
+const controlRating = [
+    {
+        rating: "Very High",
+        abbr: "VH",
+        percentPlantsKilled: "76-100"
+    },
+
+    {
+        rating: "High",
+        abbr: "H",
+        percentPlantsKilled: "56-75"
+    },
+
+    {
+        rating: "Moderate",
+        abbr: "M",
+        percentPlantsKilled: "36-55"
+    },
+
+    {
+        rating: "Low",
+        abbr: "L",
+        percentPlantsKilled: "0-35"
+    }
+];
+
+
 const herbicideNames = [
     {
         commonName: "aminocyclopryachlor:triclopyamine (1:2)",
