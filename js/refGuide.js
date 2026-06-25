@@ -232,6 +232,7 @@ const herbicideNames = [
     },
 ];
 
+
 const weedControl = [
     {
         plantName: ["African rue"],
@@ -2297,6 +2298,7 @@ const weedControl = [
         ]
     } 
 ];
+
 
 const brushControl = [
     {
