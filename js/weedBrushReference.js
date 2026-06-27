@@ -1,4 +1,4 @@
-const controlRating = [
+export const controlRating = [
     {
         rating: "Very High",
         abbr: "VH",
@@ -25,7 +25,7 @@ const controlRating = [
 ];
 
 
-const herbicideNames = [
+export const herbicideNames = [
     {
         commonName: "aminocyclopryachlor:triclopyamine (1:2)",
         chemicalName: "6-amino-5-chloro-2-cyclopropyl-pyrimidinecarboxylic acid, potassium salt",
@@ -230,7 +230,7 @@ const herbicideNames = [
 ];
 
 
-const weedControl = [
+export const weedControl = [
     {
         plantName: ["African rue"],
         herbicides: [
@@ -2297,7 +2297,7 @@ const weedControl = [
 ];
 
 
-const brushControl = [
+export const brushControl = [
     {
         plantName: ["agarita", "bumelia", "catclaw acacia", "catclaw mimosa", "coyotillo", "flameleaf sumac", "lotebush", "tasajillo", "Texas mountain laurel", "whitebrush (beebrush, beebush)"],
         herbicides: [
