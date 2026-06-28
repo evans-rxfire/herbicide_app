@@ -2703,7 +2703,7 @@ export const brushControl = [
     }, 
 
     {
-        plantName: ["baccharis (dryland willow, Roosevelt willow, seep willow, or willow baccharis", "blackbrush", "bois d'arc", "catclaw acacia", "catclaw mimosa", "Chinese tallowtree", "elm", "greenbriar", "hackberry", "pricklyash (Hercules club", "Texas persimmon", "winged elm", "yaupon"],
+        plantName: ["baccharis (dryland willow, Roosevelt willow, seep willow, or willow baccharis)", "blackbrush", "bois d'arc", "catclaw acacia", "catclaw mimosa", "Chinese tallowtree", "elm", "greenbriar", "hackberry", "pricklyash (Hercules club)", "Texas persimmon", "winged elm", "yaupon"],
         herbicides: [
             {
                 herbicideName: "triclopyr ester",
@@ -2742,7 +2742,7 @@ export const brushControl = [
     }, 
 
     {
-        plantName: ["Bigelow shinoak (white shinoak"],
+        plantName: ["Bigelow shinoak (white shinoak)"],
         herbicides: [
             {
                 herbicideName: "tebuthiuron 20% pellets",
