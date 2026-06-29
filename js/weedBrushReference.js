@@ -238,11 +238,11 @@ export const weedControl = [
                 herbicideName: "hexazinone liquid",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "2ml/plant"
                     }
                 },
@@ -255,11 +255,11 @@ export const weedControl = [
                 herbicideName: "hexazinone pellet",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: "1 pellet/plant"
                     }
                 },
@@ -272,11 +272,11 @@ export const weedControl = [
                 herbicideName: "tebuthiuron 20% pellets",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "7.5lb (1.5lb)"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -289,11 +289,11 @@ export const weedControl = [
                 herbicideName: "imazapyr",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "32oz (0.5lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.5%"
                     }
                 },
@@ -311,11 +311,11 @@ export const weedControl = [
                 herbicideName: "2,4-D amine or low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "16-32oz (0.5-1lb) 4lb/gal product"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1% (4lb/gal product)"
                     }
                 },
@@ -328,11 +328,11 @@ export const weedControl = [
                 herbicideName: "dicamba:2,4-D (1:3)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "16-32oz (0.5-1lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -345,11 +345,11 @@ export const weedControl = [
                 herbicideName: "dicamba:2,4-D (1:1.3) + 2,4-D amine of low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "9-22oz (0.28-0.69lb) dicamba:2,4-D (1:1.3) + 14-32oz (0.44-1lb) 2,4-D (4lb/gal product)"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -362,11 +362,11 @@ export const weedControl = [
                 herbicideName: "dicamba + 2,4-D amine or low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "4-8oz (0.125-0.75lb) dicamba + 12-24oz (0.375-0.75lb) 2,4-D (4lb/gal product)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.25% dicamba + 0.75% 2,4-D (4lb/gal product"
                     }
                 },
@@ -379,11 +379,11 @@ export const weedControl = [
                 herbicideName: "picloram:2,4-D (1:4), (3.8lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "11-16oz (0.3-0.5lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.63%"
                     }
                 },
@@ -396,11 +396,11 @@ export const weedControl = [
                 herbicideName: "picloram:2,4-D (1:4) (2.5lb/gal product",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "16-24oz (0.3-0.5lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -413,11 +413,11 @@ export const weedControl = [
                 herbicideName: "picloram + 2,4-D amine or low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "8-24oz (0.0625-0.1875lb) picloram + 8-24oz (0.25-0.75lb) 2,4-D (4lb/gal product)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.25% picloram + 0.5% 2,4-D (4lb/gal product)"
                     }
                 },
@@ -430,11 +430,11 @@ export const weedControl = [
                 herbicideName: "metsulfuron methyl dicamba:2,4-D (1:3)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "Rate 1-Rate 2"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -447,11 +447,11 @@ export const weedControl = [
                 herbicideName: "picloram:furoxypyr (1:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "24-32oz (0.25-0.33lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -464,11 +464,11 @@ export const weedControl = [
                 herbicideName: "triclopyr:fluroxypyr (3:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "16-24oz (0.5-0.75lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.5%"
                     }
                 },
@@ -481,11 +481,11 @@ export const weedControl = [
                 herbicideName: "aminopyralid:2,4-D (1:8)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "24oz (0.70lb)"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -498,11 +498,11 @@ export const weedControl = [
                 herbicideName: "aminopyralid:metsulfuron methyl (1:6.2)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "2.0-3.3oz (0.078-0.127lb)"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -520,11 +520,11 @@ export const weedControl = [
                 herbicideName: "2,4-D amine or low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "16-32oz (0.5-1lb) 4lb/gal product"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1% (4lb/gal product"
                     }
                 },
@@ -537,11 +537,11 @@ export const weedControl = [
                 herbicideName: "aminppyralid:2,4-D (1:8)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "24oz (0.70lb)"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -554,11 +554,11 @@ export const weedControl = [
                 herbicideName: "aminpyralid:metsulfuron methyl (1:6.2)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "2.0-3.3oz (0.078-0.127lb)"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -571,11 +571,11 @@ export const weedControl = [
                 herbicideName: "dicamba:2.4-D (1:3)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "16-32oz (0.5-1lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -588,11 +588,11 @@ export const weedControl = [
                 herbicideName: "dicamba:2,4-D (1:1.3) + 2,4-D amine or low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "9-22oz (0.28-0.69lb) dicamba:2,4-D (1:1.3) + 14-32oz (0.44-1lb) 2,4-D (4lb/gal product)"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -605,11 +605,11 @@ export const weedControl = [
                 herbicideName: "dicamba + 2,4-D amine or low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "4-8oz (0.125-0.25lb) dicamba + 12-24oz (0.375-0.75lb) 2,4-D (4lb/gal product)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.25% dicamba + 0.75% 2,4-D (4lb/gal product)"
                     }
                 },
@@ -622,11 +622,11 @@ export const weedControl = [
                 herbicideName: "picloram:2,4-D (1:4), (3.8lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "11-16oz (0.3-0.5lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.63%"
                     }
                 },
@@ -639,11 +639,11 @@ export const weedControl = [
                 herbicideName: "picloram:2,4-D (1:4), (2.5lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "16-24oz (0.3-0.5lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -656,11 +656,11 @@ export const weedControl = [
                 herbicideName: "picloram + 2,4-D amine or low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "8-24oz (0.0625-0.1875lb) picloram + 8-24oz (0.25-0.75lb) 2,4-D (4lb/gal product)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.25% picloram + 0.5% 2,4-D (4lb/gal product)"
                     }
                 },
@@ -673,11 +673,11 @@ export const weedControl = [
                 herbicideName: "picloram:fluroxypr (1:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "24-32oz (0.25-0.33lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -690,11 +690,11 @@ export const weedControl = [
                 herbicideName: "triclopyr:fluroxypyr (3:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "16-24oz (0.5-0.75lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.5%"
                     }
                 },
@@ -707,11 +707,11 @@ export const weedControl = [
                 herbicideName: "metsulfuron methyl dicamba:2,4-D (1:3)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "Rate 1 - Rate 2"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -724,11 +724,11 @@ export const weedControl = [
                 herbicideName: "metsulfuron methyl",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.1oz"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -741,11 +741,11 @@ export const weedControl = [
                 herbicideName: "metsulfuron:chlorosulfuron (3:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.125oz"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -758,11 +758,11 @@ export const weedControl = [
                 herbicideName: "metsulfuron:chlorosulfuron (1:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.2oz"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -780,11 +780,11 @@ export const weedControl = [
                 herbicideName: "picloram",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "16-32oz (0.25-0.5lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.5%"
                     }
                 },
@@ -797,11 +797,11 @@ export const weedControl = [
                 herbicideName: "picloram:2,4-D (1:4), (3.8lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "43oz (1.25lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.63%"
                     }
                 },
@@ -814,11 +814,11 @@ export const weedControl = [
                 herbicideName: "picloram:2,4-D (1:4) (2.5lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "64oz (1.25lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -831,11 +831,11 @@ export const weedControl = [
                 herbicideName: "picloram:fluroxypyr (1:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "48-96oz (0.5-1.0lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -848,11 +848,11 @@ export const weedControl = [
                 herbicideName: "picloram + 2,4-D amine or low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "16oz (0.25lb) picloram + 16-32oz (0.5-1.0lb) 2,4-D (4lb/gal product)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.25% picloram + 0.5% 2,4-D (4lb/gal product)"
                     }
                 },
@@ -865,11 +865,11 @@ export const weedControl = [
                 herbicideName: "dicamba:2,4-D (1:1.3)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "32oz (1lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -882,11 +882,11 @@ export const weedControl = [
                 herbicideName: "dicamba:2,4-D (1:1.3) + 2,4-D amine or low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "9-22oz (0.28-0.69lb) dicamba:2,4-D (1:1.3) + 14-32oz (0.44-1.0lb) 2,4-D (4lb/gal product)"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -899,11 +899,11 @@ export const weedControl = [
                 herbicideName: "dicamba + 2,4-D amine or low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "8oz (0.25lb) dicamba + 24oz (0.75lb) 2,4-D (4lb/gal product)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.25% dicamba + 0.75% 2,4-D (4lb/gal product)"
                     }
                 },
@@ -916,11 +916,11 @@ export const weedControl = [
                 herbicideName: "metsulfuron methyl",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.6oz"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -933,11 +933,11 @@ export const weedControl = [
                 herbicideName: "metsulfuron:chlorosulfuron (3:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.75oz"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -950,11 +950,11 @@ export const weedControl = [
                 herbicideName: "metsulfuron:chlorosulfuron (1:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1.2oz"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -967,11 +967,11 @@ export const weedControl = [
                 herbicideName: "metsulfuron methyl dicamba:2,4-D (1:3)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H-VH",
+                        controlRating: "H-VH",
                         rate: "Rate 1-Rate 2"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -984,11 +984,11 @@ export const weedControl = [
                 herbicideName: "tebuthiuron 20% pellets",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "3.75lb pellets (0.75lb active ingredient)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.57oz of pellets (0.033oz active ingredient)/100sq ft of ground area"
                     }
                 },
@@ -1006,11 +1006,11 @@ export const weedControl = [
                 herbicideName: "picloram:2,4-D (1:4), (3.8lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "20-32oz (0.6-0.9lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.63%"
                     }
                 },
@@ -1023,11 +1023,11 @@ export const weedControl = [
                 herbicideName: "picloram:2,4-D (1:4), (2.5lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "32-48oz (0.6-0.94lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -1040,11 +1040,11 @@ export const weedControl = [
                 herbicideName: "picloram + 2,4-D amine or low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "8-12oz (0.125-0.1875lb) picloram + 16-24oz (0.5-0.75lb) 2,4-D (4lb/gal product)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.25% picloram + 0.50% 2,4-D (4lb/gal product)"
                     }
                 },
@@ -1057,11 +1057,11 @@ export const weedControl = [
                 herbicideName: "picloram:fluroxypyr (1:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "24-32oz (0.25-0.33lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -1074,11 +1074,11 @@ export const weedControl = [
                 herbicideName: "metsulfuron methyl dicamba:2,4-D (1:3)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H-VH",
+                        controlRating: "H-VH",
                         rate: "Rate 1-Rate 2"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -1091,11 +1091,11 @@ export const weedControl = [
                 herbicideName: "dicambe:2,4-D (1:3)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "32oz (1lb"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -1108,11 +1108,11 @@ export const weedControl = [
                 herbicideName: "dicamba:2,4-D + 2,4-D amine or low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "9-22oz (0.28-0.69lb) dicamba:2,4-D (1:1.3) + 14-32oz (0.44-1.0lb) 2,4-D (4lb/gal product)"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -1125,11 +1125,11 @@ export const weedControl = [
                 herbicideName: "dicamba + 2,4-D amine of low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "8oz (0.25lb) dicamba + 24oz (0.75lb) 2,4-D (4lb/gal product)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.25% dicamba + 0.75% 2,4-D (4lb/gal product)"
                     }
                 },
@@ -1142,11 +1142,11 @@ export const weedControl = [
                 herbicideName: "aminopyralid:metsulfuron methyl (1:6.2)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "2.0-3.3oz (0.078-0.127lb)"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -1159,11 +1159,11 @@ export const weedControl = [
                 herbicideName: "aminopyralid:2,4-D (1:8)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "24oz (0.70lb)"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -1181,11 +1181,11 @@ export const weedControl = [
                 herbicideName: "2,4-D low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "64oz (2lb) 4lb/gal product"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "2% (4lb/gal product)"
                     }
                 },
@@ -1198,11 +1198,11 @@ export const weedControl = [
                 herbicideName: "dicamba:2,4-D (1:3)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "48oz (1.5lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "2%"
                     }
                 },
@@ -1215,11 +1215,11 @@ export const weedControl = [
                 herbicideName: "dicamba:2,4-D (1:1.3) + 2,4-D amine or low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "9-22oz (0.28-0.69lb) dicamba:2,4-D (1:1.3) + 14-32oz (0.44-1.0lb) 2,4-D (4lb/gal product)"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -1232,11 +1232,11 @@ export const weedControl = [
                 herbicideName: "picloram:fluroxypyr (1:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "32oz (0.33lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -1249,11 +1249,11 @@ export const weedControl = [
                 herbicideName: "triclopyr:fluroxypyr (3:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "32-48oz (0.5-0.75lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -1266,11 +1266,11 @@ export const weedControl = [
                 herbicideName: "metsulfuron methyl dicamba:2,4-D (1:3)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "Rate 3"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -1283,11 +1283,11 @@ export const weedControl = [
                 herbicideName: "dicamba + 2,4-D amine or low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "12oz (0.375lb) dicamba + 36oz (1.125lb) 2,4-D (4lb/gal product)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.5% dicamba + 1.5% 2,4-D (4lb/gal product)"
                     }
                 },
@@ -1300,11 +1300,11 @@ export const weedControl = [
                 herbicideName: "picloram:2,4-D (1:4), (3.8lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "32oz (0.95lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1.3%"
                     }
                 },
@@ -1317,11 +1317,11 @@ export const weedControl = [
                 herbicideName: "picloram:2,4-D (1:4), (2.5lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "48oz (0.64lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "2%"
                     }
                 },
@@ -1334,11 +1334,11 @@ export const weedControl = [
                 herbicideName: "picloram + 2,4-D amine or low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "12oz (0.19lb) picloram + 24oz (0.75lb) 2,4-D (4lb/gal product)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.50% picloram + 2,4-D (4lb/gal product)"
                     }
                 },
@@ -1356,11 +1356,11 @@ export const weedControl = [
                 herbicideName: "dicamba:2,4-D (1:3)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "64oz (2lb)"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -1373,11 +1373,11 @@ export const weedControl = [
                 herbicideName: "dicamba:2,4-D (1:1.3) + 2,4-D amine or low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "9-22oz (0.28-0.69lb) dicamba:2,4-D (1:1.3) + 14-32oz (0.44-1.0lb) 2,4-D (4lb/gal product)"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -1390,11 +1390,11 @@ export const weedControl = [
                 herbicideName: "metsulfuron methyl dicamba:2,4-D (1-3)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "Rate 2"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -1412,11 +1412,11 @@ export const weedControl = [
                 herbicideName: "picloram:2,4-D (1:4), (3.8lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "32oz (0.95lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1.3%"
                     }
                 },
@@ -1429,11 +1429,11 @@ export const weedControl = [
                 herbicideName: "picloram:2,4-D (1:4), (2.5lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "48oz (0.94lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "2%"
                     }
                 },
@@ -1446,11 +1446,11 @@ export const weedControl = [
                 herbicideName: "picloram + 2,4-D amine or low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "12oz (0.19lb) picloram + 24oz (0.75lb) 2,4-D (4lb/gal product)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.5% picloram + 1% 2,4-D (4lb/gal product"
                     }
                 },
@@ -1463,11 +1463,11 @@ export const weedControl = [
                 herbicideName: "picloram:fluroxypyr (1:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "32oz (0.33lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -1480,11 +1480,11 @@ export const weedControl = [
                 herbicideName: "triclopyr:fluroxypyr (3:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "32-48oz (0.5-0.75lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -1497,11 +1497,11 @@ export const weedControl = [
                 herbicideName: "metsulfuron methyl dicamba:2,4-D (1:3)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "Rate 2"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -1514,11 +1514,11 @@ export const weedControl = [
                 herbicideName: "dicamba:2,4-D (1:3)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "32oz (1lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "2%"
                     }
                 },
@@ -1531,11 +1531,11 @@ export const weedControl = [
                 herbicideName: "dicamba:2,4-D (1:1.3) + 2,4-D amine or low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "9-22oz (0.28-0.69lb) dicamba:2,4-D (1:1.3) + 14-32oz (0.44-1lb) 2,4-D (4lb/gal product)"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -1548,11 +1548,11 @@ export const weedControl = [
                 herbicideName: "dicamba + 2,4-D amine or low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "12oz (0.375lb) dicamba + 36oz (1.125lb) 2,4-D (4lb/gal product)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.5% dicamba + 1.5% 2,4-D (4lb/gal product)"
                     }
                 },
@@ -1570,11 +1570,11 @@ export const weedControl = [
                 herbicideName: "2,4-D low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "32oz (1lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -1587,11 +1587,11 @@ export const weedControl = [
                 herbicideName: "picloram:2,4-D (1:4) (3.8lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "34oz (1lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.63%"
                     }
                 },
@@ -1604,11 +1604,11 @@ export const weedControl = [
                 herbicideName: "picloram:2,4-D (1:4) (2.5lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "51oz (1lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -1621,11 +1621,11 @@ export const weedControl = [
                 herbicideName: "picloram + 2,4-D low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "13oz (0.2lb) picloram + 26oz (0.8lb) 2,4-D (4lb/gal product)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.25% picloram + 0.50% 2,4-D (4lb/gal product)"
                     }
                 },
@@ -1638,11 +1638,11 @@ export const weedControl = [
                 herbicideName: "picloram:fluroxypyr (1:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "32oz (0.33lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -1655,11 +1655,11 @@ export const weedControl = [
                 herbicideName: "triclopyr:fluroxypyr (3:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "16-24oz (0.5-0.75lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.5%"
                     }
                 },
@@ -1672,11 +1672,11 @@ export const weedControl = [
                 herbicideName: "metsulfuron methyl dicamba:2,4-D (1:3)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H-VH",
+                        controlRating: "H-VH",
                         rate: "Rate 1-Rate 2"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -1689,11 +1689,11 @@ export const weedControl = [
                 herbicideName: "dicamba:2,4-D (1:3)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "32oz (1lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -1706,11 +1706,11 @@ export const weedControl = [
                 herbicideName: "dicamba:2,4-D (1:1.3) + 2,4-D amine or low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "9-22oz (0.28-0.69lb) dicamba:2,4-D (1:1.3) + 14-32oz (0.44-1lb) 2,4-D (4lb/gal product)"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -1723,11 +1723,11 @@ export const weedControl = [
                 herbicideName: "dicamba + 2,4-D low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "8oz (0.25lb) dicamba + 24oz (0.75lb) 2,4-D (4lb/gal product)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.25% dicamba + 0.75% 2,4-D (4lb/gal product)"
                     }
                 },
@@ -1745,11 +1745,11 @@ export const weedControl = [
                 herbicideName: "triclopyr",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "16-32oz (0.50-1.0lb)"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -1762,11 +1762,11 @@ export const weedControl = [
                 herbicideName: "metsulfuron methyl",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "0.5oz"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -1779,11 +1779,11 @@ export const weedControl = [
                 herbicideName: "metsulfuron:chlorosulfuron (3:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "0.7oz"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -1796,11 +1796,11 @@ export const weedControl = [
                 herbicideName: "metsulfuron:chlorosulfuron (1:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "1.0oz"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -1813,11 +1813,11 @@ export const weedControl = [
                 herbicideName: "metsulfuron methyl dicamba:2,4-D (1:3)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "Rate 2"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -1830,11 +1830,11 @@ export const weedControl = [
                 herbicideName: "picloram:fluroxypyr (1:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "24-32oz (0.25-0.33lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -1847,11 +1847,11 @@ export const weedControl = [
                 herbicideName: "triclopyr:fluroxypyr (3:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "12-16oz (0.38-0.5lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.5%"
                     }
                 },
@@ -1869,11 +1869,11 @@ export const weedControl = [
                 herbicideName: "metsulfuron methyl",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.75oz"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -1886,11 +1886,11 @@ export const weedControl = [
                 herbicideName: "metsulfuron:chlorosulfuron (3:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1.0oz"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -1903,11 +1903,11 @@ export const weedControl = [
                 herbicideName: "metsulfuron:chlorosulfuron (1:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1.5oz"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -1920,11 +1920,11 @@ export const weedControl = [
                 herbicideName: "picloram:fluroxypyr (1:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "96oz (1.0lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "2%"
                     }
                 },
@@ -1937,11 +1937,11 @@ export const weedControl = [
                 herbicideName: "picloram",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "32oz (0.6lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -1959,11 +1959,11 @@ export const weedControl = [
                 herbicideName: "picloram:2,4-D (1:4) (3.8lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "20oz (0.6lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.63%"
                     }
                 },
@@ -1976,11 +1976,11 @@ export const weedControl = [
                 herbicideName: "picloram:2,4-D (1:4) (2.5lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "32oz (0.63lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -1993,11 +1993,11 @@ export const weedControl = [
                 herbicideName: "picloram + 2,4-D amine or low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "8oz (0.125lb) picloram + 16oz (0.5lb) 2,4-D (4lb/gal product)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.25% picloram + 0.5% 2,4-D (4lb/gal product)"
                     }
                 },
@@ -2010,11 +2010,11 @@ export const weedControl = [
                 herbicideName: "picloram:fluroxypyr (1:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "24-32oz (0.25-0.33lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -2027,11 +2027,11 @@ export const weedControl = [
                 herbicideName: "triclopyr:fluroxypyr (3:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "16-24oz (0.5-0.75lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.5%"
                     }
                 },
@@ -2044,11 +2044,11 @@ export const weedControl = [
                 herbicideName: "dicamba:2,4-D (1:3)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "32oz (1lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -2061,11 +2061,11 @@ export const weedControl = [
                 herbicideName: "dicamba:2,4-D (1:1.3) + 2,4-D amine or low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "9-22oz (0.28-0.69lb) dicamba:2,4-D (1:1.3) + 14-32oz (0.44-1lb) 2,4-D (4lb/gal product)"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -2078,11 +2078,11 @@ export const weedControl = [
                 herbicideName: "dicamba + 2,4-D amine or low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "8oz (0.25lb) dicamba + 24oz (0.75lb) 2,4-D (4lb/gal product)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.25% dicamba + 0.75% 2,4-D (4lb/gal product)"
                     }
                 },
@@ -2100,11 +2100,11 @@ export const weedControl = [
                 herbicideName: "metsulfuron methyl",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.4oz"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -2117,11 +2117,11 @@ export const weedControl = [
                 herbicideName: "metsulfuron:chlorosulfuron (3:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.5oz"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -2134,11 +2134,11 @@ export const weedControl = [
                 herbicideName: "metsulfuron:chlorosulfuron (1:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.8oz"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -2151,11 +2151,11 @@ export const weedControl = [
                 herbicideName: "metsulfuron methyl dicamba:2,4-D (1:3)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "Rate 2"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -2173,11 +2173,11 @@ export const weedControl = [
                 herbicideName: "picloram:2,4-D (1:4), (3.8lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.63%"
                     }
                 },
@@ -2190,11 +2190,11 @@ export const weedControl = [
                 herbicideName: "picloram:2,4-D (1:4), (2.5lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -2207,11 +2207,11 @@ export const weedControl = [
                 herbicideName: "picloram:fluroxypyr (1:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -2224,11 +2224,11 @@ export const weedControl = [
                 herbicideName: "dicamba:2,4-D (1:3)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -2246,11 +2246,11 @@ export const weedControl = [
                 herbicideName: "metsulfuron methyl",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.2oz"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -2263,11 +2263,11 @@ export const weedControl = [
                 herbicideName: "metsulfuron:chlorosulfuron (3:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.25oz"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -2280,11 +2280,11 @@ export const weedControl = [
                 herbicideName: "metsulfuron:chlorosulfuron (1:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.4oz"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -2305,11 +2305,11 @@ export const brushControl = [
                 herbicideName: "aminocyclopyrachlor:triclopyr amine (1:2)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1.5%"
                     }
                 },
@@ -2327,11 +2327,11 @@ export const brushControl = [
                 herbicideName: "hexazinone liquid",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "2ml/3ft height or canopy diameter, whichever is greater"
                     }
                 },
@@ -2344,11 +2344,11 @@ export const brushControl = [
                 herbicideName: "hexazinone pellet",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1 pellet/3ft height or canopy diamter, whichever is greater"
                     }
                 },
@@ -2361,11 +2361,11 @@ export const brushControl = [
                 herbicideName: "picloram",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "4ml/3ft height or canopy diameter, whichever is greater"
                     }
                 },
@@ -2378,11 +2378,11 @@ export const brushControl = [
                 herbicideName: "picloram",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -2400,11 +2400,11 @@ export const brushControl = [
                 herbicideName: "picloram",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -2422,11 +2422,11 @@ export const brushControl = [
                 herbicideName: "picloram",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -2439,11 +2439,11 @@ export const brushControl = [
                 herbicideName: "hexazinone liquid (plants <6ft tall)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "2ml/3ft height or canopy diameter, whichever is greater"
                     }
                 },
@@ -2456,11 +2456,11 @@ export const brushControl = [
                 herbicideName: "hexazinone pellet (plants <6ft tall)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1 pellet/3ft height or canopy diameter, whichever is greater"
                     }
                 },
@@ -2473,11 +2473,11 @@ export const brushControl = [
                 herbicideName: "hexazinone liquid (plants >6ft tall)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "4ml/3ft height or canopy diameter, whichever is greater"
                     }
                 },
@@ -2490,11 +2490,11 @@ export const brushControl = [
                 herbicideName: "hexazinone pellet (plants >6ft tal)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "2 pellets/3ft height or canopy diameter, whichever is greater"
                     }
                 },
@@ -2507,11 +2507,11 @@ export const brushControl = [
                 herbicideName: "picloram",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "4ml/3ft height or canopy diamter, whichever is greater"
                     }
                 },
@@ -2529,11 +2529,11 @@ export const brushControl = [
                 herbicideName: "picloram",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "4% in water"
                     }
                 },
@@ -2551,11 +2551,11 @@ export const brushControl = [
                 herbicideName: "2,4-D low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "48-96oz (1.5-3lb) 4lb/gal product"
                     }, 
                     IPT: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "1%"
                     }
                 },
@@ -2568,11 +2568,11 @@ export const brushControl = [
                 herbicideName: "picloram:2,4-D (1:4), (3.8lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "0.63%"
                     }
                 },
@@ -2585,11 +2585,11 @@ export const brushControl = [
                 herbicideName: "picloram:2,4-D (1:4), (2.5lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "1%"
                     }
                 },
@@ -2602,11 +2602,11 @@ export const brushControl = [
                 herbicideName: "dicamba:2,4-D (1:3)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "1%"
                     }
                 },
@@ -2619,11 +2619,11 @@ export const brushControl = [
                 herbicideName: "triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -2636,11 +2636,11 @@ export const brushControl = [
                 herbicideName: "triclopyr:fluroxypyr (3:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.5%"
                     }
                 },
@@ -2653,11 +2653,11 @@ export const brushControl = [
                 herbicideName: "picloram:fluroxypyr (1:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -2670,11 +2670,11 @@ export const brushControl = [
                 herbicideName: "hexazinone liquid",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "2ml/3ft height or canopy diameter, whichever is greater"
                     }
                 },
@@ -2687,11 +2687,11 @@ export const brushControl = [
                 herbicideName: "hexazinone pellet",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "",
+                        controlRating: "",
                         rate: "1 pellet/3ft height or canopy diameter, whichever is greater"
                     }
                 },
@@ -2709,11 +2709,11 @@ export const brushControl = [
                 herbicideName: "triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "25% in diesel fuel oil"
                     }
                 },
@@ -2726,11 +2726,11 @@ export const brushControl = [
                 herbicideName: "triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "25% in diesel fuel oil - 10% d,l-limonene (a penetrant) may be added to the mixture - see remarks"
                     }
                 },
@@ -2748,11 +2748,11 @@ export const brushControl = [
                 herbicideName: "tebuthiuron 20% pellets",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "7.5lb pellets (1.5lb active ingredient)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.5oz pellets (0.1oz active ingredient)/100sq ft of ground area"
                     }
                 },
@@ -2770,11 +2770,11 @@ export const brushControl = [
                 herbicideName: "picloram:fluroxypyr (1:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "48-64oz (0.5-0.67lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1-2%"
                     }
                 },
@@ -2787,11 +2787,11 @@ export const brushControl = [
                 herbicideName: "triclopyr:fluroxypyr (3:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "24-32oz (0.75-1.0lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.5-1%"
                     }
                 },
@@ -2809,11 +2809,11 @@ export const brushControl = [
                 herbicideName: "aminopyralid:metsulfuron methyl (1:6.2)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "3.3oz (0.127lb)"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -2831,11 +2831,11 @@ export const brushControl = [
                 herbicideName: "tebuthiuron 20% pellets",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "10-15lb pellets (2-3lb active ingredient)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.5oz pellets (0.1oz active ingredient)/45sqft ground area or 2-4in. stem diameter"
                     }
                 },
@@ -2853,11 +2853,11 @@ export const brushControl = [
                 herbicideName: "hexazinone liquid",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "4ml/3ft canopy diameter or height, whichever is greater"
                     }
                 },
@@ -2870,11 +2870,11 @@ export const brushControl = [
                 herbicideName: "hexazinone pellet",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "2 pellets/3ft canopy diameter or height, whichever is greater"
                     }
                 },
@@ -2892,11 +2892,11 @@ export const brushControl = [
                 herbicideName: "tebuthiuron 20% pellets",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "10lb pellets (2lb active ingredient)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.5oz pellets (0.1oz active ingredient)/45sqft of ground area or 2-4in. of stem diameter"
                     }
                 },
@@ -2914,11 +2914,11 @@ export const brushControl = [
                 herbicideName: "triclopyr:2,4-D (1:2)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "4% in diesel fuel oil"
                     }
                 },
@@ -2936,11 +2936,11 @@ export const brushControl = [
                 herbicideName: "picloram",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -2953,11 +2953,11 @@ export const brushControl = [
                 herbicideName: "picloram:2,4-D (1:4), (3.8lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1.3%"
                     }
                 },
@@ -2970,11 +2970,11 @@ export const brushControl = [
                 herbicideName: "picloram:2,4-D (1:4), (2.4lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "2%"
                     }
                 },
@@ -2992,11 +2992,11 @@ export const brushControl = [
                 herbicideName: "tebuthiuron 20% pellets",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "3.75lb pellets (0.75lb active ingredient)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.5oz pellets (0.1oz active ingredient)/100sqft of ground area or 2-4in. of stem diameter"
                     }
                 },
@@ -3014,11 +3014,11 @@ export const brushControl = [
                 herbicideName: "tebuthiuron 20% pellets",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "3.75lb pellets (0.75lb active ingredient)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.5oz pellets (0.1oz active ingredient)/100sqft of ground area or 2-4in of stem diameter"
                     }
                 },
@@ -3036,11 +3036,11 @@ export const brushControl = [
                 herbicideName: "picloram:2,4-D (1:4) (3.8lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "80oz (2.4lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.63%"
                     }
                 },
@@ -3053,11 +3053,11 @@ export const brushControl = [
                 herbicideName: "picloram:2,4-D (1:4) (2.5lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "128oz (2.5lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -3070,11 +3070,11 @@ export const brushControl = [
                 herbicideName: "picloram + 2,4-d amine",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "32oz (0.5lb) picloram + 64oz (2lb) 2,4-D (4lb/gal product)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.25% picloram + 0.5% 2,4-D (4lb/gal product)"
                     }
                 },
@@ -3087,11 +3087,11 @@ export const brushControl = [
                 herbicideName: "picloram:fluroxypyr (1:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "80oz (0.84lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -3104,11 +3104,11 @@ export const brushControl = [
                 herbicideName: "picloram",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "32oz (0.5lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.5%"
                     }
                 },
@@ -3121,11 +3121,11 @@ export const brushControl = [
                 herbicideName: "picloram + triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "32oz (0.5lb) picloram + 16oz (0.5lb) triclopyr ester"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.5% picloram + 0.25% triclopyr ester"
                     }
                 },
@@ -3137,11 +3137,11 @@ export const brushControl = [
                 herbicideName: "hexazinone liquid",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "4ml/3ft canopy diameter or height, whichever is greater"
                     }
                 },
@@ -3154,11 +3154,11 @@ export const brushControl = [
                 herbicideName: "hexazinone pellets",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "2 pellets/3ft canopy diameter or height, whichever is greater"
                     }
                 },
@@ -3171,11 +3171,11 @@ export const brushControl = [
                 herbicideName: "teuthiuron 20% pellets",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.5oz pellets (0.1oz active ingredient)/45sqft of ground area or 2-4in. of stem diameter"
                     }
                 },
@@ -3188,11 +3188,11 @@ export const brushControl = [
                 herbicideName: "triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "15% in diesel fuel"
                     }
                 },
@@ -3205,11 +3205,11 @@ export const brushControl = [
                 herbicideName: "triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "25% in diesel fuel"
                     }
                 },
@@ -3227,11 +3227,11 @@ export const brushControl = [
                 herbicideName: "triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -3244,11 +3244,11 @@ export const brushControl = [
                 herbicideName: "triclopyr ester + picloram",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.5% triclopyr ester + 0.5% picloram"
                     }
                 },
@@ -3266,11 +3266,11 @@ export const brushControl = [
                 herbicideName: "dicamba",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "L",
+                        controlRating: "L",
                         rate: "64oz (2lb)"
                     }, 
                     IPT: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "1%"
                     }
                 },
@@ -3283,11 +3283,11 @@ export const brushControl = [
                 herbicideName: "picloram:fluroxypyr (1:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1-2%"
                     }
                 },
@@ -3305,11 +3305,11 @@ export const brushControl = [
                 herbicideName: "tebuthiuron 20% pellets",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "3.75-5lb of pellets (0.75-1lb active ingredient)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.5oz pellets (0.1oz active ingredient)/100sqft of ground area"
                     }
                 },
@@ -3327,11 +3327,11 @@ export const brushControl = [
                 herbicideName: "picloram",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "4ml/3ft height or canopy diameter, whichever is greater"
                     }
                 },
@@ -3344,11 +3344,11 @@ export const brushControl = [
                 herbicideName: "hexazinone liquid",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "4ml/3ft height or canopy diameter, whichever is greater, or 1in. trunk diameter"
                     }
                 },
@@ -3361,11 +3361,11 @@ export const brushControl = [
                 herbicideName: "hexazinone pellet",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "2 pellets/3ft height or canopy diameter, whichever is greater, or 1in. trunk diameter"
                     }
                 },
@@ -3383,11 +3383,11 @@ export const brushControl = [
                 herbicideName: "tebuthiuron 20% pellets",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.5oz pellets (0.1oz active ingredient)/45sqft of ground area or 2-4in. of stem diameter"
                     }
                 },
@@ -3405,11 +3405,11 @@ export const brushControl = [
                 herbicideName: "tebuthiuron 20% pellets",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "L",
+                        controlRating: "L",
                         rate: "0.5oz pellets (0.1oz active ingredient)/45sqft of ground area or 2-4in. of stem diameter"
                     }
                 },
@@ -3427,11 +3427,11 @@ export const brushControl = [
                 herbicideName: "picloram:2,4-D (1:4) (3.8lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.63%"
                     }
                 },
@@ -3444,11 +3444,11 @@ export const brushControl = [
                 herbicideName: "picloram:2,4-D (1:4) (2.5lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -3461,11 +3461,11 @@ export const brushControl = [
                 herbicideName: "picloram:fluroxypyr (1:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "48-96oz (0.5-1.0lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.75%"
                     }
                 },
@@ -3478,11 +3478,11 @@ export const brushControl = [
                 herbicideName: "picloram",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "16-32oz (0.25-0.5lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.5%"
                     }
                 },
@@ -3495,11 +3495,11 @@ export const brushControl = [
                 herbicideName: "picloram + triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "16oz (0.25lb) picloram + 8oz (0.25lb) triclopyr ester"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.25% picloram + 0.25% triclopyr ester"
                     }
                 },
@@ -3512,11 +3512,11 @@ export const brushControl = [
                 herbicideName: "picloram + 2,4-D amine or low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.25% picloram + 0.5% 2,4-D (4lb/gal product)"
                     }
                 },
@@ -3534,11 +3534,11 @@ export const brushControl = [
                 herbicideName: "imazapyr",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "64oz (1lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.5%"
                     }
                 },
@@ -3556,11 +3556,11 @@ export const brushControl = [
                 herbicideName: "dicamba + 2,4-D low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "1.5% dicamba + 3% 2,4-D (4lb/gal product) in diesel fuel oil"
                     }
                 },
@@ -3578,11 +3578,11 @@ export const brushControl = [
                 herbicideName: "2.4-D amine",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "undiluted"
                     }
                 },
@@ -3600,11 +3600,11 @@ export const brushControl = [
                 herbicideName: "Picloram:2,4-D (1:4), (3.8lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.63%"
                     }
                 },
@@ -3617,11 +3617,11 @@ export const brushControl = [
                 herbicideName: "picloram:2,4-D (1:4), (2.5lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -3634,11 +3634,11 @@ export const brushControl = [
                 herbicideName: "aminopyralid:picloram:fluroxypyr (1:2:2)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -3651,11 +3651,11 @@ export const brushControl = [
                 herbicideName: "aminpyralid:clopyralid (1:4.6)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "28oz (0.61lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -3668,11 +3668,11 @@ export const brushControl = [
                 herbicideName: "aminpyralid:2,4-D (1:8)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "33.6oz (0.98lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -3685,11 +3685,11 @@ export const brushControl = [
                 herbicideName: "picloram:fluroxypyr (1:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "M-H",
+                        controlRating: "M-H",
                         rate: "48oz (0.5lb)"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -3701,11 +3701,11 @@ export const brushControl = [
                 herbicideName: "aminpyralid:metsulfuron methyl (1:6.2)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "M-H",
+                        controlRating: "M-H",
                         rate: "3.3oz (0.127lb)"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -3723,11 +3723,11 @@ export const brushControl = [
                 herbicideName: "aminocyclopyrachlor:triclopyr amine (1:2)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "36-48oz(0.56-0.75lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1.5%"
                     }
                 },
@@ -3740,11 +3740,11 @@ export const brushControl = [
                 herbicideName: "aminopyralid:clopyralid (1:4.6) + picloram",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "M-H",
+                        controlRating: "M-H",
                         rate: "28oz (0.61lb) aminopyralid:clopyralid + 32oz (0.5lb) picloram"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -3757,11 +3757,11 @@ export const brushControl = [
                 herbicideName: "aminpyralid:2,4-D (1:8) + picloram:2,4-D (1:4) + picloram",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "M-H",
+                        controlRating: "M-H",
                         rate: "34oz (0.99lb) aminopyralid:2,4-D + 72oz (1.4lb) picloram:2,4-D + 13oz (0.2lb) picloram"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -3774,11 +3774,11 @@ export const brushControl = [
                 herbicideName: "picloram + triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "L-M",
+                        controlRating: "L-M",
                         rate: "32oz (0.5lb) picloram + 16oz (0.5lb) triclopyr ester"
                     }, 
                     IPT: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "0.5% picloram + 0.5% triclopyr ester"
                     }
                 },
@@ -3791,11 +3791,11 @@ export const brushControl = [
                 herbicideName: "picloram + clopyralid",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "L-M",
+                        controlRating: "L-M",
                         rate: "32oz (0.5lb) picloram + 11-21oz (0.25-0.5lb) clopyralid"
                     }, 
                     IPT: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "0.5% picloram + 0.5% clopyralid"
                     }
                 },
@@ -3808,11 +3808,11 @@ export const brushControl = [
                 herbicideName: "picloram:fluroxypyr (1:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "L-M",
+                        controlRating: "L-M",
                         rate: "96oz (1.0lb)"
                     }, 
                     IPT: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "1%"
                     }
                 },
@@ -3825,11 +3825,11 @@ export const brushControl = [
                 herbicideName: "picloram",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "L-M",
+                        controlRating: "L-M",
                         rate: "32oz (0.5lb)"
                     }, 
                     IPT: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "1%"
                     }
                 },
@@ -3842,11 +3842,11 @@ export const brushControl = [
                 herbicideName: "picloram:2,4-D (1:4), (3.8lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.63%"
                     }
                 },
@@ -3859,11 +3859,11 @@ export const brushControl = [
                 herbicideName: "picloram:2,4-D (1:4), (2.5lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -3876,11 +3876,11 @@ export const brushControl = [
                 herbicideName: "aminopyralid:clopyralid (1:4.6)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -3893,11 +3893,11 @@ export const brushControl = [
                 herbicideName: "aminopyralid:metsulfuron methyl (1:6.2)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "L",
+                        controlRating: "L",
                         rate: "3.3oz (0.127lb)"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -3910,11 +3910,11 @@ export const brushControl = [
                 herbicideName: "aminopyralid:metsulfuron methyl (1:6.2) + triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "M-H",
+                        controlRating: "M-H",
                         rate: "3.3oz (0.127lb) aminopyralid:metsulfuron methyl + 16oz (0.5lb) triclopyr ester"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -3927,11 +3927,11 @@ export const brushControl = [
                 herbicideName: "aminopyralid:2,4-D (1:8)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "L",
+                        controlRating: "L",
                         rate: "24-34oz (0.7-0.98lb)"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -3944,11 +3944,11 @@ export const brushControl = [
                 herbicideName: "aminopyralid:2,4-D (1:8) + triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "L",
+                        controlRating: "L",
                         rate: "24oz (0.70lb) aminopyralid:2,4-D + 16oz (0.5lb) triclopyr ester"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -3961,11 +3961,11 @@ export const brushControl = [
                 herbicideName: "triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "15% in diesel fuel oil"
                     }
                 },
@@ -3978,11 +3978,11 @@ export const brushControl = [
                 herbicideName: "triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "25% in diesel fuel"
                     }
                 },
@@ -4000,11 +4000,11 @@ export const brushControl = [
                 herbicideName: "triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "15% in diesel fuel"
                     }
                 },
@@ -4022,11 +4022,11 @@ export const brushControl = [
                 herbicideName: "2,4-D amine",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "L",
+                        controlRating: "L",
                         rate: "64oz (2lb) 4lb/gal product"
                     }, 
                     IPT: {
-                        contolRating: "L",
+                        controlRating: "L",
                         rate: "1% 4lb/gal product"
                     }
                 },
@@ -4039,11 +4039,11 @@ export const brushControl = [
                 herbicideName: "picloram:2,4-D (1:4), (3.8lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "80oz (2.4lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.63%"
                     }
                 },
@@ -4056,11 +4056,11 @@ export const brushControl = [
                 herbicideName: "picloram:2,4-D (1:4), (2.5lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "128oz (2.5lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -4073,11 +4073,11 @@ export const brushControl = [
                 herbicideName: "picloram + 2,4-D amine or low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "32oz (0.5lb) picloram + 64oz (2lb) 2,4-D (4lb/gal product)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.25% picloram + 0.5% 2,4-D (4lb/gal product)"
                     }
                 },
@@ -4090,11 +4090,11 @@ export const brushControl = [
                 herbicideName: "2,4-D low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "L",
+                        controlRating: "L",
                         rate: "64oz (2lb) 4lb/gal product"
                     }, 
                     IPT: {
-                        contolRating: "L",
+                        controlRating: "L",
                         rate: "1% (4lb/gal product)"
                     }
                 },
@@ -4112,11 +4112,11 @@ export const brushControl = [
                 herbicideName: "2,4-D amine",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "L",
+                        controlRating: "L",
                         rate: "128oz (4lb) 4lb/gal product"
                     }, 
                     IPT: {
-                        contolRating: "L",
+                        controlRating: "L",
                         rate: "1% (4lb/gal product)"
                     }
                 },
@@ -4129,11 +4129,11 @@ export const brushControl = [
                 herbicideName: "picloram:2,4-D (1:4), (3.8lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "80oz (2.4lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.63%"
                     }
                 },
@@ -4146,11 +4146,11 @@ export const brushControl = [
                 herbicideName: "picloram:2,4-D (1:4), (2.5lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "128oz (2.5lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -4163,11 +4163,11 @@ export const brushControl = [
                 herbicideName: "picloram + 2,4-D amine or low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "32oz (0.5lb) picloram + 64oz (2lb) 2,4-D (4lb/gal product)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.25% picloram + 0.5% 2,4-D (4lb/gal product)"
                     }
                 },
@@ -4180,11 +4180,11 @@ export const brushControl = [
                 herbicideName: "2,4-D low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "L",
+                        controlRating: "L",
                         rate: "96oz (3lb) 4lb/gal product"
                     }, 
                     IPT: {
-                        contolRating: "L",
+                        controlRating: "L",
                         rate: "1% (4lb/gal product)"
                     }
                 },
@@ -4202,11 +4202,11 @@ export const brushControl = [
                 herbicideName: "hexazinone liquid",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "M-H",
+                        controlRating: "M-H",
                         rate: "4-8lm/3ft of canopy diameter or height, whichever is greater"
                     }
                 },
@@ -4219,11 +4219,11 @@ export const brushControl = [
                 herbicideName: "hexazinone pellet",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "M-H",
+                        controlRating: "M-H",
                         rate: "2-4 pellets/3ft of canopy diameter or height, whichever is greater"
                     }
                 },
@@ -4241,11 +4241,11 @@ export const brushControl = [
                 herbicideName: "triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "15% in diesel fuel oil or basal bark oil"
                     }
                 },
@@ -4258,11 +4258,11 @@ export const brushControl = [
                 herbicideName: "triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "15% in diesel fuel oil 10%d,l limonene (a penetrant) may be added to the mixture - see remarks"
                     }
                 },
@@ -4280,11 +4280,11 @@ export const brushControl = [
                 herbicideName: "triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "25% in diesel fuel oil or basal bark oil"
                     }
                 },
@@ -4297,11 +4297,11 @@ export const brushControl = [
                 herbicideName: "triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "25% in diesel fuel oil 10%d,l limonene (a penetrant) may be added to the mixture - see remarks"
                     }
                 },
@@ -4319,11 +4319,11 @@ export const brushControl = [
                 herbicideName: "aminocyclopyrachlor:triclopyr amine (1:2)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "15% in ater carrier + 1% MSO-OS"
                     }
                 },
@@ -4341,11 +4341,11 @@ export const brushControl = [
                 herbicideName: "triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "5% in diesel fuel oil"
                     }
                 },
@@ -4363,11 +4363,11 @@ export const brushControl = [
                 herbicideName: "diesel fuel oil, kerosene",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: null
                     }
                 },
@@ -4380,11 +4380,11 @@ export const brushControl = [
                 herbicideName: "triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "2% in diesel fuel oil"
                     }
                 },
@@ -4402,11 +4402,11 @@ export const brushControl = [
                 herbicideName: "triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "15% in diesel fuel oil or basal bark oil"
                     }
                 },
@@ -4419,11 +4419,11 @@ export const brushControl = [
                 herbicideName: "triplopyr:fluroxypyr (3:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "10% in diesel fuel oil or basal bark oil"
                     }
                 },
@@ -4441,11 +4441,11 @@ export const brushControl = [
                 herbicideName: "aminocyclopyrachlor:triclopyr amine (1:2)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "",
+                        controlRating: "",
                         rate: ""
                     }
                 },
@@ -4463,11 +4463,11 @@ export const brushControl = [
                 herbicideName: "aminocyclopyrachlor:triclopyr amine (1:2)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "24-36oz (0.375-0.56lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1.5%"
                     }
                 },
@@ -4480,11 +4480,11 @@ export const brushControl = [
                 herbicideName: "aminopyralid:clopyralid (1:4.6)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "28oz (0.61lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -4497,11 +4497,11 @@ export const brushControl = [
                 herbicideName: "clopyralid",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "M-H",
+                        controlRating: "M-H",
                         rate: "11-21oz (0.25-0.5lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -4514,11 +4514,11 @@ export const brushControl = [
                 herbicideName: "triclpyr ester + picloram",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "M",
+                        controlRating: "M",
                         rate: "8-16oz (0.25-0.5lb) triclopyr + 16-32oz (0.25-0.5lb) picloram"
                     }, 
                     IPT: {
-                        contolRating: "M-H",
+                        controlRating: "M-H",
                         rate: "0.5% triclopyr + 0.5% picloram"
                     }
                 },
@@ -4531,11 +4531,11 @@ export const brushControl = [
                 herbicideName: "triclopyr ester + dicamba",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "L",
+                        controlRating: "L",
                         rate: "8-16oz (0.25-0.5lb) triclopyr + 8-16oz (0.25-0.5lb) dicamba"
                     }, 
                     IPT: {
-                        contolRating: "M",
+                        controlRating: "M",
                         rate: "0.5% triclopyr + 0.5% dicamba"
                     }
                 },
@@ -4548,11 +4548,11 @@ export const brushControl = [
                 herbicideName: "triclopyr ester + clopyralid",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "M-H",
+                        controlRating: "M-H",
                         rate: "4-160z (0.125-0.5lb) triclopyr + 5-11oz (0.125-0.25lb) clopyralid"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.5% triclopyr + 0.5% clopyralid"
                     }
                 },
@@ -4564,11 +4564,11 @@ export const brushControl = [
                 herbicideName: "picloram + dicamba",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "M",
+                        controlRating: "M",
                         rate: "16-32oz (0.25-0.5lb) picloram + 8-16oz (0.25-0.5lb) dicamba"
                     }, 
                     IPT: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "0.5% picloram + 0.5% dicamba"
                     }
                 },
@@ -4581,11 +4581,11 @@ export const brushControl = [
                 herbicideName: "picloram + clopyralid",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "M-H",
+                        controlRating: "M-H",
                         rate: "16-32oz (0.25-0.5lb) picloram + 11-21oz (0.25-0.5lb) clopyralid"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.5% picloram + 0.5% clopyralid"
                     }
                 },
@@ -4598,11 +4598,11 @@ export const brushControl = [
                 herbicideName: "triclopyr ester + clopyralid + picloram",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "M-H",
+                        controlRating: "M-H",
                         rate: "4-8oz (0.125-0.25lb) triclopyr + 5-11oz (0.25-0.5lb) clopyralid + 32oz (0.5lb) picloram"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -4615,11 +4615,11 @@ export const brushControl = [
                 herbicideName: "aminopyralid:clopyralid + picloram",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "28oz (0.61lb) aminopyralid:clopyralid + 16-32oz (0.25-0.5lb) picloram"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -4632,11 +4632,11 @@ export const brushControl = [
                 herbicideName: "aminopyralid:clopyralid + triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "28oz (0.61lb) aminopyralid:clopyralid + 8-32oz (0.25-0.75lb) triclopyr ester"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -4649,11 +4649,11 @@ export const brushControl = [
                 herbicideName: "clopyralid (see remarks)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "21oz (0.5lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -4666,11 +4666,11 @@ export const brushControl = [
                 herbicideName: "picloram",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "128oz (2lb)"
                     }
                 },
@@ -4683,11 +4683,11 @@ export const brushControl = [
                 herbicideName: "clopyralid",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "84oz (2lb)"
                     }
                 },
@@ -4700,11 +4700,11 @@ export const brushControl = [
                 herbicideName: "picloram + clopyralid",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "64oz (1lb) picloram + 43oz (1lb) clopyralid"
                     }
                 },
@@ -4722,11 +4722,11 @@ export const brushControl = [
                 herbicideName: "2,4-D amine or low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "L",
+                        controlRating: "L",
                         rate: "28-32oz (2-4lb)"
                     }, 
                     IPT: {
-                        contolRating: "M",
+                        controlRating: "M",
                         rate: "2% (4lb/gal product)"
                     }
                 },
@@ -4739,11 +4739,11 @@ export const brushControl = [
                 herbicideName: "picloram:2,4-D (1:4), (3.8lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "L",
+                        controlRating: "L",
                         rate: "20-32oz (0.6-0.9lb)"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -4756,11 +4756,11 @@ export const brushControl = [
                 herbicideName: "picloram:2,4-D (1:4), (2.5lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "L",
+                        controlRating: "L",
                         rate: "32-48oz (0.6-0.9lb)"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -4773,11 +4773,11 @@ export const brushControl = [
                 herbicideName: "dicamba:2,4-D (1:3)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "L",
+                        controlRating: "L",
                         rate: "32-48oz (1-1.5lb)"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -4790,11 +4790,11 @@ export const brushControl = [
                 herbicideName: "metsulfuron methyl dicamba:2,4-D (1:3)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "L",
+                        controlRating: "L",
                         rate: "Rate 1-Rate 2"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -4807,11 +4807,11 @@ export const brushControl = [
                 herbicideName: "picloram + 2,4-D amine or low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "L",
+                        controlRating: "L",
                         rate: "8-12oz (0.125-0.1875lb) picloram + 32-48oz (1-1.5lb) 2,4-D (4lb/gal product)"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -4824,11 +4824,11 @@ export const brushControl = [
                 herbicideName: "triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "L",
+                        controlRating: "L",
                         rate: "16-32oz (0.5-1lb)"
                     }, 
                     IPT: {
-                        contolRating: "M",
+                        controlRating: "M",
                         rate: "1%"
                     }
                 },
@@ -4841,11 +4841,11 @@ export const brushControl = [
                 herbicideName: "dicamba",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "L",
+                        controlRating: "L",
                         rate: "16-32oz (0.5-1lb)"
                     }, 
                     IPT: {
-                        contolRating: "M",
+                        controlRating: "M",
                         rate: "1%"
                     }
                 },
@@ -4863,11 +4863,11 @@ export const brushControl = [
                 herbicideName: "triclopyr ester + clopyralid",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.5% triclopyr ester + 0.5% clopyralid"
                     }
                 },
@@ -4880,11 +4880,11 @@ export const brushControl = [
                 herbicideName: "aminopyralid:clopyralid + triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H-VH",
+                        controlRating: "H-VH",
                         rate: "28oz (0.61lb) aminopyralid:clopyralid + 8oz (0.25lb) triclopyr ester"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -4897,11 +4897,11 @@ export const brushControl = [
                 herbicideName: "aminopyralid:clopyralid",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "M-H",
+                        controlRating: "M-H",
                         rate: "28oz (0.61lb)"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -4919,11 +4919,11 @@ export const brushControl = [
                 herbicideName: "picloram + triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "M",
+                        controlRating: "M",
                         rate: "32oz (0.5lb) picloram + 16oz (0.5lb) triclopyr ester"
                     }, 
                     IPT: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "0.5% picloram + 0.5% triclopyr ester"
                     }
                 },
@@ -4936,11 +4936,11 @@ export const brushControl = [
                 herbicideName: "picloram + clopyrlaid",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "M",
+                        controlRating: "M",
                         rate: "32oz (0.5lb) picloram + 11-21oz (0.25-0.5lb) clopyralid"
                     }, 
                     IPT: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "0.5% picloram + 0.5% clopyralid"
                     }
                 },
@@ -4953,11 +4953,11 @@ export const brushControl = [
                 herbicideName: "picloram + dicamba",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "M",
+                        controlRating: "M",
                         rate: "32oz (0.5lb) picloram + 16oz (0.5lb) dicamba"
                     }, 
                     IPT: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "0.5% picloram + 0.5% dicamba"
                     }
                 },
@@ -4970,11 +4970,11 @@ export const brushControl = [
                 herbicideName: "aminopyralid:clopyralid + picloram",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "M",
+                        controlRating: "M",
                         rate: "28o (0.61lb) aminopyralid:clopyralid + 16-32oz (0.25-0.5lb) picloram"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -4987,11 +4987,11 @@ export const brushControl = [
                 herbicideName: "aminopyralid:clopyralid + triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "M",
+                        controlRating: "M",
                         rate: "28oz (0.61lb) aminopyralid:clopyralid + 8-32oz (0.25-0.75lb) triclopyr ester"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -5009,11 +5009,11 @@ export const brushControl = [
                 herbicideName: "tebuthiuron 20% pellets",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "M",
+                        controlRating: "M",
                         rate: "7.5-10lb of pellets (1.5-2lb active ingredient)"
                     }, 
                     IPT: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "0.5oz of pellets (0.1oz active ingredient)/50-100sqft of ground area"
                     }
                 },
@@ -5031,11 +5031,11 @@ export const brushControl = [
                 herbicideName: "tebuthiuron 20% pellets",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "5lb of pellets (1lb active ingredient)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.5oz of pellets (0.1oz active ingredient)/100sqft of ground area"
                     }
                 },
@@ -5053,11 +5053,11 @@ export const brushControl = [
                 herbicideName: "aminopyralid:picloram:fluroyxpyr (1:2:2)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "32oz (0.5lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -5070,11 +5070,11 @@ export const brushControl = [
                 herbicideName: "picloram",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "16-32oz (0.25-0.5lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -5087,11 +5087,11 @@ export const brushControl = [
                 herbicideName: "picloram + fluroxypyr",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "64oz (0.67lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -5104,11 +5104,11 @@ export const brushControl = [
                 herbicideName: "picloram:2,4-D (1:4), (3.8lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "80oz (2.4lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1.3%"
                     }
                 },
@@ -5121,11 +5121,11 @@ export const brushControl = [
                 herbicideName: "picloram:2,4-D (1:4), (2.5lb/gal product)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "125oz (2.5lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "2%"
                     }
                 },
@@ -5138,11 +5138,11 @@ export const brushControl = [
                 herbicideName: "triclopyr:fluroxypyr (3:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -5154,11 +5154,11 @@ export const brushControl = [
                 herbicideName: "fluroxypyr",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -5171,11 +5171,11 @@ export const brushControl = [
                 herbicideName: "fluroxypyr",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.5%"
                     }
                 },
@@ -5188,11 +5188,11 @@ export const brushControl = [
                 herbicideName: "prescribed burn + picloram",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "8-16oz (0.125-0.25lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -5210,11 +5210,11 @@ export const brushControl = [
                 herbicideName: "picloram + triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "L-M",
+                        controlRating: "L-M",
                         rate: "32oz (0.5lb) picloram + 16oz (0.5lb) triclopyr ester"
                     }, 
                     IPT: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "0.5% picloram + 0.5% triclopyr ester"
                     }
                 },
@@ -5227,11 +5227,11 @@ export const brushControl = [
                 herbicideName: "picloram + clopyralid",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "L-M",
+                        controlRating: "L-M",
                         rate: "32oz (0.5lb) picloram + 11-21oz (0.25-0.5lb) clopyralid"
                     }, 
                     IPT: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "0.5% picloram + 0.5% clopyralid"
                     }
                 },
@@ -5244,11 +5244,11 @@ export const brushControl = [
                 herbicideName: "picloram:fluroxypyr (1:1)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "L-M",
+                        controlRating: "L-M",
                         rate: "96oz (1.0lb)"
                     }, 
                     IPT: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "1%"
                     }
                 },
@@ -5261,11 +5261,11 @@ export const brushControl = [
                 herbicideName: "picloram",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "L-M",
+                        controlRating: "L-M",
                         rate: "32oz (0.5lb)"
                     }, 
                     IPT: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "1%"
                     }
                 },
@@ -5283,11 +5283,11 @@ export const brushControl = [
                 herbicideName: "tebuthiuron 20% pellets",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "5-10lb pellets (1-2lb active ingredient)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.5oz pellets (0.1oz active ingredient)/50-100sqft of ground area"
                     }
                 },
@@ -5305,11 +5305,11 @@ export const brushControl = [
                 herbicideName: "tebuthiuron 20% pellets",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "0.25oz pellets (0.05oz active ingredient"
                     }
                 },
@@ -5327,11 +5327,11 @@ export const brushControl = [
                 herbicideName: "imazapyr",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "64oz (1lb)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1%"
                     }
                 },
@@ -5344,11 +5344,11 @@ export const brushControl = [
                 herbicideName: "imazapyr + glyphosate",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "32oz (0.5lb) imazapyr + 16oz (0.5lb) glyphosate"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.5% imazapyr + 0.5% glyphosate"
                     }
                 },
@@ -5361,11 +5361,11 @@ export const brushControl = [
                 herbicideName: "triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "25% in diesel fuel oil"
                     }
                 },
@@ -5383,11 +5383,11 @@ export const brushControl = [
                 herbicideName: "2,4-D low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "32oz (1lb) 4lb/gal product {up to 64oz (2lb) for ground broadcast}"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "1% (4lb/gal product)"
                     }
                 },
@@ -5400,11 +5400,11 @@ export const brushControl = [
                 herbicideName: "metsulfuron methyl dicamba:2,4-D (1:3) + 2,4-D low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "Rate 1 metsulfuron methyl dicamba:2,4-D (1:3) + 16oz (0.5lb) 2,4-D (4lb/gal product)"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -5422,11 +5422,11 @@ export const brushControl = [
                 herbicideName: "tebuthiuron 20% pellets",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "3.75-5lb of pellets (0.75-1lb active ingredient)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.5oz of pellets (0.1oz active ingredient)/100sqft of ground area"
                     }
                 },
@@ -5439,11 +5439,11 @@ export const brushControl = [
                 herbicideName: "tebuthiuron 80 DF",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H-VH",
+                        controlRating: "H-VH",
                         rate: "1.25lb (1.0lb)"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -5461,11 +5461,11 @@ export const brushControl = [
                 herbicideName: "metsulfuron methyl dicamba:2,4-D (1:3)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H-VH",
+                        controlRating: "H-VH",
                         rate: "Rate 2 or Rate 3 (see remarks)"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -5483,11 +5483,11 @@ export const brushControl = [
                 herbicideName: "aminocyclopyrachlor:triclopyr amine (1:2)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "2%"
                     }
                 },
@@ -5505,11 +5505,11 @@ export const brushControl = [
                 herbicideName: "tebuthiuron 20% pellets",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "5-735lb of pellets (1-1.5lb active ingredient)"
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "0.5oz of pellets (0.1oz active ingredient)/50-100sqft of ground area"
                     }
                 },
@@ -5527,11 +5527,11 @@ export const brushControl = [
                 herbicideName: "aminocyclopyrachlor:triclopyr amine (1:2)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "H-VH",
+                        controlRating: "H-VH",
                         rate: "1.5%"
                     }
                 },
@@ -5549,11 +5549,11 @@ export const brushControl = [
                 herbicideName: "aminocyclopyrachlor:triclopyr amine (1:2)",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "H-VH",
+                        controlRating: "H-VH",
                         rate: "1.5%"
                     }
                 },
@@ -5566,11 +5566,11 @@ export const brushControl = [
                 herbicideName: "triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "2% in diesel fuel oil"
                     }
                 },
@@ -5583,11 +5583,11 @@ export const brushControl = [
                 herbicideName: "triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "2% in 1:5 diesel fuel oil:water emulsion"
                     }
                 },
@@ -5600,11 +5600,11 @@ export const brushControl = [
                 herbicideName: "triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "15% in diesel fuel oil"
                     }
                 },
@@ -5617,11 +5617,11 @@ export const brushControl = [
                 herbicideName: "triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "Undiluted, 2-4ml per plant whorl"
                     }
                 },
@@ -5634,11 +5634,11 @@ export const brushControl = [
                 herbicideName: "triclopyr ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }, 
                     IPT: {
-                        contolRating: "VH",
+                        controlRating: "VH",
                         rate: "undiluted"
                     }
                 },
@@ -5650,11 +5650,11 @@ export const brushControl = [
                 herbicideName: "metsulfuron methyl dicamba:2,4-D (1:3) + 2,4-D low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "Rate 2 metsulfuron methyl dicamba:2,4-D (1:3) + 16-24oz 2,4-D (4lb/gal product)"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },
@@ -5667,11 +5667,11 @@ export const brushControl = [
                 herbicideName: "metsulfuron:chlorosulfuron (3:1) + 2,4-D low volatile ester",
                 herbicideQuantity: {
                     broadcast: {
-                        contolRating: "H",
+                        controlRating: "H",
                         rate: "0.675oz metsulfuron:chlorosulfuron (3:1) + 32oz 2,4-D (4lb/gal product)"
                     }, 
                     IPT: {
-                        contolRating: null,
+                        controlRating: null,
                         rate: null
                     }
                 },

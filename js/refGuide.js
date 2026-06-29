@@ -5,9 +5,16 @@ const plantNameSelect = document.getElementById("plant-name");
 
 const getRecommendationBtn = document.getElementById("get-recommendation-button");
 
-const recommendationsContainer = document.getElementById("output-container");
+const placeholder = document.getElementById("recommendations-placeholder");
+const recommendationsContainer = document.getElementById("recommendations-results");
+recommendationsContainer.classList.add(
+    "transition-opacity", 
+    "duration-200"
+);
 
-let plantSelectList = [];
+
+let hasResults = false;
+let resultsAreStale = false;
 
 
 //Functions
@@ -34,9 +41,29 @@ function updateRecommendationButton() {
 
 
 // Helper to clear recommendations from the HTML
-function clearRecommendations() {
-    recommendationsContainer.innerHTML = 
+function resetRecommendationsView() {
+    placeholder.innerHTML = 
         `<p class="text-center">Select a control type and target, then click <strong class="text-blue-600 dark:text-lime-600">Get Recommendations</strong>.</p>`;
+}
+
+
+// Helpers to show recommendations as stale if user selects different options
+function updateStaleUI() {
+    if (resultsAreStale) {
+        recommendationsContainer.classList.add("opacity-60");
+    } else {
+        recommendationsContainer.classList.remove("opacity-60");
+    }
+}
+
+
+function onInputChange() {
+    if (hasResults) {
+        resultsAreStale = true;
+        updateStaleUI();
+    }
+
+    updateRecommendationButton();
 }
 
 
@@ -59,8 +86,6 @@ function getPlantList(controlArray) {
 
 // Populate <select> element with plant list names
 function populatePlantSelect(controlArray) {
-    plantSelectList.innerHTML = "";
-
     const defaultOption = document.createElement("option");
     defaultOption.value = "";
     defaultOption.textContent = "Select a plant / target";
@@ -95,10 +120,16 @@ function findMatchingEntries(controlArray, selectedPlant) {
 
 // Render the herbicide recommendations to the HTML
 function renderRecommendations(recommendationGroups) {
-    clearRecommendations();
+    recommendationsContainer.innerHTML = "";
+    placeholder.innerHTML = "";
+
+    hasResults = true;
+    resultsAreStale = false;
+
+    updateStaleUI();
 
     recommendationGroups.forEach(group => {
-        console.log(group.plantName);
+        // console.log(group.plantName);
         const section = renderRecommendationSection(group);
         recommendationsContainer.appendChild(section);
     });
@@ -125,6 +156,12 @@ function renderRecommendationSection(group) {
     const cardContainer = document.createElement("div");
     cardContainer.className = "space-y-4 pt-4 border-stone-300 dark:border-stone-700";
 
+    group.herbicides.forEach(herbicide => {
+        // console.log(herbicideName);
+        const card = renderHerbicideCard(herbicide);
+        cardContainer.appendChild(card);
+    });
+
     section.appendChild(heading);
     section.appendChild(targetList);
     section.appendChild(cardContainer);
@@ -134,7 +171,89 @@ function renderRecommendationSection(group) {
 
 
 function renderHerbicideCard(herbicide) {
+    const safe = (value) => value ?? "—";
 
+    const { 
+        herbicideName, 
+        herbicideQuantity, 
+        sprayVolume,
+        timing,
+        remarks
+    } = herbicide;
+
+    const broadcast = herbicideQuantity.broadcast;
+    const IPT = herbicideQuantity.IPT;
+
+    const broadcastRating = safe(broadcast.controlRating);
+    const broadcastRate = safe(broadcast.rate);
+    const iptRating = safe(IPT.controlRating);
+    const iptRate = safe(IPT.rate);
+    const volume = safe(sprayVolume);
+    const applyTiming = safe(timing);
+
+    const card = document.createElement("div");
+    card.className ="border border-stone-400 rounded-md p-3 bg-stone-100 dark:bg-stone-700 shadow-sm";
+
+    const title = document.createElement("h4");
+    title.textContent = herbicideName;
+    title.className = "font-semibold text-stone-900 dark:text-stone-100 mb-3";
+
+    const body = document.createElement("div");
+    body.className = "grid grid-cols-2 gap-3 text-sm";
+
+    const broadcastEl = document.createElement("div");
+    broadcastEl.innerHTML = `
+        <p class="font-medium">Broadcast</p>
+        <p> Rating: ${broadcastRating}</p>
+        <p>Rate: ${broadcastRate}</p>
+    `;
+
+    const iptEl = document.createElement("div");
+    iptEl.innerHTML = `
+        <p class="font-medium">IPT</p>
+        <p>Rating: ${iptRating}</p>
+        <p>Rate: ${iptRate}</p>
+    `;
+
+    const meta = document.createElement("div");
+    meta.className = "mt-3 text-sm space-y-1";
+
+    const volumeEl = document.createElement("p");
+    volumeEl.textContent = `Spray Volume: ${volume}`;
+
+    const timingEl = document.createElement("p");
+    timingEl.textContent = `Timing: ${applyTiming}`;
+
+    meta.appendChild(volumeEl);
+    meta.appendChild(timingEl);
+
+    let remarksEl = null;
+
+    if (remarks) {
+        remarksEl = document.createElement("p");
+        remarksEl.className = 
+            "mt-3 text-xs italic text-stine-700 dark:text-stone-300";
+        remarksEl.textContent = remarks;
+    }
+
+    card.appendChild(title);
+    card.appendChild(body);
+
+    body.appendChild(broadcastEl);
+    body.appendChild(iptEl);
+
+    card.appendChild(meta);
+
+    if (remarksEl) {
+        card.appendChild(remarksEl);
+    }
+
+    return card;
+}
+
+
+function renderNotes() {
+    
 }
 
 
@@ -142,7 +261,7 @@ function renderHerbicideCard(herbicide) {
 controlTypeSelect.addEventListener("change", () => {
     if (!controlTypeSelect.value) return;
 
-    clearRecommendations();
+    resetRecommendationsView();
     
     plantNameSelect.innerHTML = "";
     plantNameSelect.disabled = true;
@@ -154,13 +273,13 @@ controlTypeSelect.addEventListener("change", () => {
     }
 
     populatePlantSelect(controlArray);
-    updateRecommendationButton();
+    onInputChange();
 });
 
 
 plantNameSelect.addEventListener("change", () => {
-    clearRecommendations();
-    updateRecommendationButton();
+    resetRecommendationsView();
+    onInputChange();
 });
 
 
@@ -181,5 +300,8 @@ getRecommendationBtn.addEventListener("click", (e) => {
     // console.log(recommedationGroups);
 
     renderRecommendations(recommedationGroups);
+
+    resultsAreStale = false;
+    updateStaleUI();
 });
 
