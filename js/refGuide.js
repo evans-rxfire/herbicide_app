@@ -6,6 +6,7 @@ const plantNameSelect = document.getElementById("plant-name");
 const getRecommendationBtn = document.getElementById("get-recommendation-button");
 
 const placeholder = document.getElementById("recommendations-placeholder");
+
 const recommendationsContainer = document.getElementById("recommendations-results");
 recommendationsContainer.classList.add(
     "transition-opacity", 
@@ -43,7 +44,7 @@ function updateRecommendationButton() {
 // Helper to clear recommendations from the HTML
 function resetRecommendationsView() {
     placeholder.innerHTML = 
-        `<p class="text-center">Select a control type and target, then click <strong class="text-blue-600 dark:text-lime-600">Get Recommendations</strong>.</p>`;
+        `<p class="text-center">Select a control type and target, then click <strong class="text-blue-600 dark:text-lime-600">Get Treatment Recommendations</strong>.</p>`;
 }
 
 

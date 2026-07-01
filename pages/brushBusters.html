@@ -46,7 +46,7 @@
                 <div class="p-2">
                     <label for="plant-name">Plant Name</label>
                     <select name="plant-name" id="plant-name" class="bg-white text-stone-900 dark:bg-stone-900 dark:text-stone-100 border border-stone-300 dark:border-stone-600 rounded-md px-2 py-1">
-                        <option value="" selected></option>
+                        <option value="" selected>Select a plant</option>
                         <option value="mesquite">Mesquite</option>
                         <option value="huisache">Huisache</option>
                         <option value="prickly-pear">Prickly Pear</option>
@@ -70,8 +70,8 @@
 
                 <div class="p-2">
                     <label for="application-type">Application Type</label>
-                    <select name="application-type" id="application-type" class="bg-white text-stone-900 dark:bg-stone-900 dark:text-stone-100 border border-stone-300 dark:border-stone-600 rounded-md px-2 py-1">
-                        <option value="" selected></option>
+                    <select name="application-type" id="application-type" class="bg-white text-stone-900 dark:bg-stone-900 dark:text-stone-100 border border-stone-300 dark:border-stone-600 rounded-md px-2 py-1" disabled>
+                        <option value="">Select a plant first</option>
                     </select>
                 </div>
 
@@ -81,6 +81,8 @@
 
         <div id="output-container">
             <p id="output-message" class="text-center text-orange-500 font-bold text-xl"></p>
+            <div id="recommendations-placeholder"></div>
+            <div id="recommendations-results"></div>
         </div>
 
 	</main>
@@ -116,6 +118,6 @@
 	</footer>
 
     <script src="../js/ui.js"></script>
-    <script src="../js/brushBusters.js" defer></script>
+    <script type="module" src="../js/brushBusters.js" defer></script>
 </body>
 </html>
